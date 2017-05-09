@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/njxiaohan/react-native/app/node_modules/react-native/Libraries/Image/RCTImageViewManager.m \
+  /Users/njxiaohan/react-native/app/node_modules/react-native/Libraries/Image/RCTImageViewManager.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTImageSource.h \
+  /Users/njxiaohan/react-native/app/node_modules/react-native/Libraries/Image/RCTImageLoader.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTResizeMode.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
+  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
+  /Users/njxiaohan/react-native/app/node_modules/react-native/Libraries/Image/RCTImageView.h
