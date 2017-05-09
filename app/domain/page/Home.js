@@ -92,8 +92,20 @@ export class Home extends Component {
 
     try {
       this.loading = true
+      console.log("请求获取课程列表："+this.start+","+this.take)
+
+      //模拟测试数据begin
+      if(this.start<5){
+        var courseInfo=api.courseInfo
+      }
+      else{
+        var courseInfo=api.courseInfoNone
+      }
+      const data=courseInfo
+      console.log(data)
+      //模拟测试数据end
+
       // const data = await get_courses(this.start, this.take)
-      const data=api.courseInfo
 
       this.courses = [...this.courses, ...data.data.courses]
       this.start = this.start + data.data.courses.length
@@ -160,7 +172,7 @@ export class Home extends Component {
 
 
           <View style={{marginLeft : -10, marginTop : 10}}>
-            <Image source={require("./images/fire-all-course.png")} style={{height : 30}} resizeMode="contain" />
+            <Image source={require("./images/all-news.png")} style={{height : 30}} resizeMode="contain" />
           </View>
 
         </View>

@@ -28,6 +28,34 @@ export default {
       title: '网点',
       icon: require('./img/Home/icon_homepage_lifeServiceCategory.png',
     )},
+    {
+      title: '绑卡',
+      icon: require('./img/Home/icon_homepage_beautyCategory.png',
+    )},
+    {
+      title: '测试1',
+      icon: require('./img/Home/icon_homepage_foodCategory.png',
+    )},
+    {
+      title: '测试2',
+      icon: require('./img/Home/icon_homepage_foodCategory.png',
+    )},
+    {
+      title: '测试3',
+      icon: require('./img/Home/icon_homepage_foodCategory.png',
+    )},
+    {
+      title: '测试4',
+      icon: require('./img/Home/icon_homepage_foodCategory.png',
+    )},
+    {
+      title: '测试5',
+      icon: require('./img/Home/icon_homepage_foodCategory.png',
+    )},
+    {
+      title: '测试6',
+      icon: require('./img/Home/icon_homepage_foodCategory.png',
+    )},
   ],
 
   // { title: '周边游', icon: require('./img/Home/icon_homepage_foottreatCategory.png') },
@@ -57,7 +85,7 @@ export default {
           'price': 0.01,
           'start': '2016-10-30T00:00:00.000Z',
           'address': '珠峰',
-          'image': 'http://ketang.zhufengpeixun.cn/static/nodejs.jpg',
+          // 'image': 'http://ketang.zhufengpeixun.cn/static/nodejs.jpg',
         },
         {
           'id': '591008f458e8d96ff8b23592',
@@ -71,7 +99,9 @@ export default {
       ],
     },
   },
-
+  courseInfoNone:{
+    'code': 201,
+  },
   courseInfo: {
     'code': 0,
     'data': {
@@ -80,15 +110,15 @@ export default {
         {
           '_id': '5880fcd1fb829056066e8f5e',
           'id': '5880fcd1fb829056066e8f5e',
-          'title': '实战《珠峰课堂》系列ReactNative课程',
+          'title': '联网中心组织召开2017年网站信息工作会议',
           'author': 'Ramroll',
           'author_profile': '完成《珠峰课堂》开发的神秘大牛，3年以上React/ReactNative架构经验，带过10人以上React/ReactNative前端团队。算法和大数据专家。',
-          'start': '2016-02-10T00:00:00.000Z',
+          'start': '2016-02-10 00:00:00',
           'address': '珠峰',
-          'image': 'http://ketang.zhufengpeixun.cn/static/reactnative.jpg',
+          'image': 'http://114.215.203.138:8180/img/news1.jpg',
           'hours': 24,
           'price': 2000,
-          'description': '提供ReactNative基础课程，同时提供一个在Github上发售的ReactNative项目。学完基础，然后学如何架构一个完整的APP。',
+          'description': '为进一步加强江苏省高速公路联网营运管理中心网站建设，推进路网营运管理信息交流，提升高速公路公共服务水平，2017年4月28日，联网中心组织召开2017年度网站信息工作会议，全路网23家成员单位及联网中心各部门信息员参加了会议。',
           '__v': 0,
           'weight': 1,
           'contents': ['第一部分：IOS和Android环境', '第二部分：React/ReactNative相关基础知识', '第三部分: 《珠峰课堂》实战教学', '第四部分: 《珠峰课堂》架构解读'],
@@ -96,14 +126,14 @@ export default {
         {
           '_id': '58c7c8d13b8f8c37e90d8ce3',
           'id': '58c7c8d13b8f8c37e90d8ce3',
-          'title': 'nodejs实战',
-          'author': '',
-          'start': '2016-10-30T00:00:00.000Z',
+          'title': '关于关闭苏通卡阳澄西湖便利点的公告',
+          'author': '江苏通行宝智慧交通科技有限公司',
+          'start': '2016-10-30 00:00:00',
           'address': '珠峰',
-          'image': '',
+          'image': 'http://114.215.203.138:8180/img/info1.jpg',
           'hours': 24,
           'price': 3000,
-          'description': '',
+          'description': '根据业务调整，我司拟于2017年5月3日起关闭阳澄西湖便利点（G15W常台高速），为满足用户充值需求，目前已在阳澄西湖服务区（东区）大厅内放置自助圈存机。由此给您带来的不便敬请谅解！特此公告。',
           '__v': 0,
           'weight': 0,
           'contents': [' '],

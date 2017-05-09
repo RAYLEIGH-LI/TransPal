@@ -79,7 +79,7 @@ const nextReplaceScrollState = (cards, itemHeights, H,  S,  y ) => {
 }
 
 
-// 通用场景: 
+// 通用场景:
 // 1. 用户先渲染20项
 // 2. 用户下拉列表--- 发送请求到服务器 -- 再渲染20项
 
@@ -113,7 +113,7 @@ export class ListView extends Component {
     this.itemHeights = []
 
 
-    // ID 计数器  
+    // ID 计数器
     this.id_counter = 0
 
 
@@ -258,6 +258,9 @@ export class ListView extends Component {
         ...newlyAdded.filter(x => !visibleData.find(t => t.id === x.id))
       ]
     }
+
+    // console.log("visibleData")
+    // console.log(visibleData)
 
 
 

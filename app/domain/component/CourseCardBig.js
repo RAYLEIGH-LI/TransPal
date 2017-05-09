@@ -1,5 +1,5 @@
 /***********************************************
- * 
+ *
  * MIT License
  *
  * Copyright (c) 2016 珠峰课堂,Ramroll
@@ -22,7 +22,7 @@
  * SOFTWARE.
  *
  */
-import React, {Component} from 'react'  
+import React, {Component} from 'react'
 import {View, Dimensions,TouchableOpacity, TouchableWithoutFeedback, Image, StyleSheet, Text} from 'react-native'
 import {format_currency, flexCenter} from "basic"
 import {COLOR_TITLE, COLOR_TEXT_LIGHT, COLOR_PRICE} from "domain/def"
@@ -30,7 +30,7 @@ export class CourseCardBig extends Component{
 
   render() {
     const W = Dimensions.get("window").width
-    const {image, title, author, description, price} = this.props
+    const {image, title, author, description, price, start} = this.props
     return <TouchableWithoutFeedback elevation={true}  onPress={this.props.onPress}>
 
       <View  style={courseStyle.cardContainer}>
@@ -39,9 +39,10 @@ export class CourseCardBig extends Component{
           style={{width : W - 22, height : (W - 20) * 0.3}}
         />
         <Title>{title}</Title>
-        <Author label="讲师">{author}</Author>
+        <Author label="作者">{author}</Author>
         <Description>{description}</Description>
-        <Price>{price}</Price>
+        <Time label="时间">{start}</Time>
+        {/* <Price>{price}</Price> */}
       </View>
     </TouchableWithoutFeedback>
   }
@@ -62,6 +63,10 @@ const ScrollIndicator = ({children, image}) => {
 
 
 const Author = ({label, children}) => {
+  return <Text style={{...Paragraph, color : COLOR_TEXT_LIGHT}}>{label}:{children}</Text>
+}
+
+const Time = ({label, children}) => {
   return <Text style={{...Paragraph, color : COLOR_TEXT_LIGHT}}>{label}:{children}</Text>
 }
 
