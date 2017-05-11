@@ -64,19 +64,17 @@ export const get_sign_alipay = (orderId) => {
  */
 export const get_image = async () => {
 
-
-  console.log("@get_image[图片验证码] with token " + token)
-
   // 获取实际的请求地址
   const url = url_mapper("/imgcode")
 
   // 从AnsycStorage中取得token
   const token = await get_local_token()
+  console.log("@get_image[图片验证码] with token " + token)
 
   const result = await RNFetchBlob.fetch('GET', url, {
     token
   })
-
+  
   const base64String = result.base64()
 
 

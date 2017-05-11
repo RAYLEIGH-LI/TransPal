@@ -57,11 +57,11 @@ const validate = (assert, fields) => {
 
 
 export class Register extends Component {
-  
+
   constructor(){
     super()
     this.state = {
-      busy : false 
+      busy : false
     }
   }
   async _submit(data, errors){
@@ -72,13 +72,15 @@ export class Register extends Component {
       return
     }
     this.setState({busy : true})
-    
+
     const result = await register(data)
+
+    console.log(result)
     this.setState({busy : false}, (() => {
-      
+
       this.props.navigator.pop()
     }).bind(this))
-    
+
 
   }
 
@@ -91,7 +93,7 @@ export class Register extends Component {
           <Image source={require("./images/register.png")} style={{width : 60, height : 60}} />
         </View>
         */}
-        
+
         <FormConnector
           data={{agree : true}}
           fields={fields}
@@ -122,13 +124,13 @@ const RegisterForm = ({form, fields, submit, busy}) => {
     console.log("@send @RegisterForm")
     const mobileNumber = mobile.value
     if(!(mobileNumber && mobileNumber.length === 11 )){
-      Alert.alert("错误", "请输入手机号")  
+      Alert.alert("错误", "请输入手机号")
       return false
     }
-    
+
     if(!imgcode.value) {
-      Alert.alert("错误", "请输入图片验证码")  
-      return false 
+      Alert.alert("错误", "请输入图片验证码")
+      return false
     }
     /// TODO 发送请求
      const result = await get_user_vcode("register", mobileNumber, imgcode.value)

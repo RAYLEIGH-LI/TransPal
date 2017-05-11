@@ -1,5 +1,5 @@
 /***********************************************
- * 
+ *
  * MIT License
  *
  * Copyright (c) 2016 珠峰课堂,Ramroll
@@ -22,7 +22,7 @@
  * SOFTWARE.
  *
  */
-import React, {Component} from 'react'  
+import React, {Component} from 'react'
 import {View, Dimensions, TouchableOpacity, Image, StyleSheet, Text} from 'react-native'
 import {format_currency, flexCenter} from "basic"
 import {COLOR_TITLE, COLOR_TEXT_LIGHT, COLOR_PRICE, COLOR_INFO} from "domain/def"
@@ -36,8 +36,8 @@ export class CourseCardSmall extends Component{
   }
 
   render() {
-    const W = Dimensions.get("window").width
 
+    const W = Dimensions.get("window").width
     const {isLast, image, title, start, hours, author, pay, description, price, address, onPress, containerStyle} = this.props
 
 
@@ -46,20 +46,20 @@ export class CourseCardSmall extends Component{
 
       <View style={{flexDirection: 'row'}}>
         <View style={{marginLeft : 20, borderRadius : 5, overflow : "hidden"}}>
-          <Image
+          {image ? <Image
             source={{uri : image}}
             style={{width : W * 0.4, height : W * 0.4 * 0.6}}
-          />
+          /> : null}
         </View>
         <View style={{paddingLeft : 10}}>
-          <LabelValue label="开课时间">{start.substring(0, 10)}</LabelValue>
-          <LabelValue label="上课地点">{address}</LabelValue>
-          {hours ? <LabelValue label="时长">{hours}课时</LabelValue> : null}
-          {author ? <LabelValue label="讲师">{author}</LabelValue> : null}
+          <LabelValue label="发布时间">{start.substring(0, 10)}</LabelValue>
+          {/* <LabelValue label="上课地点">{address}</LabelValue> */}
+          {/* {hours ? <LabelValue label="时长">{hours}课时</LabelValue> : null} */}
+          {author ? <LabelValue label="作者">{author}</LabelValue> : null}
         </View>
       </View>
 
-      {!isLast ? 
+      {!isLast ?
       <View style={{borderBottomWidth : 1, borderColor : '#ccc', margin: 20}}></View>
         : null}
       {pay ?
@@ -69,13 +69,13 @@ export class CourseCardSmall extends Component{
         : null
       }
 
-        
+
       {pay ?
       <View style={{...flexCenter, marginTop : 20 }}>
         <ZButton onPress={onPress}>支付</ZButton>
       </View>
         :null}
-        
+
     </View>
   }
 

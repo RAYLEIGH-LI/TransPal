@@ -38,9 +38,11 @@ import {
 import {ZButton} from 'domain/component'
 import {get_orders} from "domain/api/apis"
 import {flexCenter} from "basic"
+import {Routes} from "domain/page"
 import api from './src/api'
 
 import {CourseCardSmall} from "domain/component"
+import {CourseCardBig} from "domain/component"
 
 export class MyCourse extends Component{
 
@@ -52,8 +54,19 @@ export class MyCourse extends Component{
   }
   componentDidMount(){
 
-    this.loading_data()
+    // this.loading_data()
+    this.load_course()
 
+  }
+
+  async load_course(){
+    const data=api.courseInfo
+    console.log(data)
+    if(data && data.data && data.data.courses) {
+      this.setState({
+        orders : data.data.courses
+      })
+    }
   }
 
   async loading_data() {
@@ -66,6 +79,11 @@ export class MyCourse extends Component{
       })
     }
 
+  }
+  _pressCourse(course) {
+    return () => {
+      this.props.navigator.push({...Routes.Course, course})
+    }
   }
 
   _switch_home(){
@@ -93,13 +111,21 @@ export class MyCourse extends Component{
 
 
     return (
+
+
       <ScrollView style={{backgroundColor : "#f2f3f4", flex : 1}}>
+        <View style={{marginLeft : -10, marginTop : 10}}>
+          <Image source={require("./images/news-title.png")} style={{height : 30}} resizeMode="contain" />
+        </View>
         {this.state.orders.map( (order, i) => {
           return <TouchableOpacity key={i}
                    onPress={this._view}>
-            <CourseCardSmall
+            {/* <CourseCardSmall
             containerStyle={{margin : 10, paddingBottom : 10, backgroundColor : "white"}}
-            key={i} {...order} pay={false} isLast={i === this.state.orders.length - 1} />
+            key={i} {...order} pay={false} isLast={i === this.state.orders.length - 1} /> */}
+            <CourseCardBig onPress={this._pressCourse(order).bind(this)} {...order}  />
+
+
           </TouchableOpacity>
         })}
       </ScrollView>

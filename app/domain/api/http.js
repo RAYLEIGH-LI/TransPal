@@ -36,7 +36,7 @@ import {get_local_token, set_local_token} from "domain/store/storage"
  */
 const http_factory = (method) => {
   return async (url, params) => {
-    console.log("@http_factory")
+    console.log("@http_factory:"+url+","+params)
     url = url_mapper(url)
 
     // 获取TOKEN
@@ -86,9 +86,9 @@ const http_factory = (method) => {
               cache : {
                 url,
                 requestOptions,
-                resolve  
+                resolve
               }
-              
+
             })
 
           })
@@ -107,7 +107,7 @@ const http_factory = (method) => {
       console.log("and options")
       console.log(requestOptions)
       const text = await http_result.text()
-      const json = JSON.parse(text) 
+      const json = JSON.parse(text)
 
       console.log("get json result with token:" + json.token)
       console.log(json)
@@ -141,4 +141,3 @@ export const http_get = http_factory("GET")
 export const http_post = http_factory("POST")
 export const http_put = http_factory("PUT")
 export const http_delete = http_factory("DELETE")
-

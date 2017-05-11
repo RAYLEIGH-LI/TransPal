@@ -26,28 +26,74 @@ import React, {Component} from 'react'
 import {View, Dimensions,TouchableOpacity, TouchableWithoutFeedback, Image, StyleSheet, Text} from 'react-native'
 import {format_currency, flexCenter} from "basic"
 import {COLOR_TITLE, COLOR_TEXT_LIGHT, COLOR_PRICE} from "domain/def"
+
+
 export class CourseCardBig extends Component{
 
   render() {
     const W = Dimensions.get("window").width
     const {image, title, author, description, price, start} = this.props
-    return <TouchableWithoutFeedback elevation={true}  onPress={this.props.onPress}>
 
-      <View  style={courseStyle.cardContainer}>
-        <Image
-          source={{uri : image}}
-          style={{width : W - 22, height : (W - 20) * 0.3}}
-        />
-        <Title>{title}</Title>
-        <Author label="作者">{author}</Author>
-        <Description>{description}</Description>
-        <Time label="时间">{start}</Time>
-        {/* <Price>{price}</Price> */}
-      </View>
-    </TouchableWithoutFeedback>
+    console.log(image)
+
+    return (
+      <TouchableWithoutFeedback elevation={true}  onPress={this.props.onPress}>
+
+        <View  style={courseStyle.cardContainer}>
+          {image ? <Image
+            source={{uri : image}}
+            style={{width : W - 22, height : (W - 20) * 0.3}}
+          /> : null}
+
+          <Title>{title}</Title>
+          <Author label="作者">{author}</Author>
+          <Description>{description}</Description>
+          <Time label="发布时间">{start}</Time>
+          {/* <Price>{price}</Price> */}
+        </View>
+      </TouchableWithoutFeedback>
+    )
+
+    // if(!image){
+    //   return (<TouchableWithoutFeedback elevation={true}  onPress={this.props.onPress}>
+    //
+    //     <View  style={courseStyle.cardContainer}>
+    //       {/* <Image
+    //         source={{uri : image}}
+    //         style={{width : W - 22, height : (W - 20) * 0.3}}
+    //       /> */}
+    //       <Title>{title}</Title>
+    //       <Author label="作者">{author}</Author>
+    //       <Description>{description}</Description>
+    //       <Time label="发布时间">{start}</Time>
+    //       {/* <Price>{price}</Price> */}
+    //     </View>
+    //   </TouchableWithoutFeedback>)
+    // }
+    // else{
+    //   return (<TouchableWithoutFeedback elevation={true}  onPress={this.props.onPress}>
+    //
+    //     <View  style={courseStyle.cardContainer}>
+    //       <Image
+    //         source={{uri : image}}
+    //         style={{width : W - 22, height : (W - 20) * 0.3}}
+    //       />
+    //       <Title>{title}</Title>
+    //       <Author label="作者">{author}</Author>
+    //       <Description>{description}</Description>
+    //       <Time label="发布时间">{start}</Time>
+    //       {/* <Price>{price}</Price> */}
+    //     </View>
+    //   </TouchableWithoutFeedback>)
+    // }
+
+
   }
 
+
 }
+// _pressCourse(course) {
+
 
 const Title = ({children}) => {
   return <Text style={{...Paragraph, color : COLOR_TITLE, fontSize : 18, fontWeight : 'bold'}}>{children}</Text>

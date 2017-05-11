@@ -33,7 +33,7 @@ import {UserCenter} from "./UserCenter"
 
 
 export class Tabs extends Component{
-  
+
   render(){
     return (
       <Tabbar>
@@ -44,7 +44,7 @@ export class Tabs extends Component{
         </TabbarItem>
         <TabbarItem
           name="mycourse"
-          title="我的课程" activeIcon={require("./images/my-course.png")} icon={require("./images/my-course-gray.png")}>
+          title="新闻资讯" activeIcon={require("./images/my-course.png")} icon={require("./images/my-course-gray.png")}>
           <MyCourse  navigator={this.props.navigator} route={this.props.route} />
         </TabbarItem>
         <TabbarItem

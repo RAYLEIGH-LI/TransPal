@@ -45,6 +45,9 @@ class _UserCenter extends Component{
   _Login(){
     this.props.navigator.push({...Routes.Login})
   }
+  _Register(){
+    this.props.navigator.push({...Routes.Register})
+  }
   _about(){
     this.props.navigator.push({...Routes.About})
   }
@@ -105,7 +108,8 @@ class _UserCenter extends Component{
         <View style={{marginTop : 10}}>
           {/*<StripedButton icon={require("./images/uc/question.png")}>常见问题</StripedButton>*/}
           <StripedButton onPress={this._Login.bind(this)} icon={require("./images/uc/user.png")}>登陆</StripedButton>
-          <StripedButton onPress={this._about.bind(this)} icon={require("./images/uc/user.png")}>关于《珠峰课堂》</StripedButton>
+          <StripedButton onPress={this._Register.bind(this)} icon={require("./images/uc/user.png")}>注册</StripedButton>
+          <StripedButton onPress={this._about.bind(this)} icon={require("./images/uc/user.png")}>关于</StripedButton>
           <StripedButton onPress={this._reset.bind(this)} icon={require("./images/uc/password.png")}>修改密码</StripedButton>
           <StripedButton onPress={this._logout.bind(this)} icon={require("./images/uc/password.png")}>登出</StripedButton>
           <StripedButton onPress={this._Example0.bind(this)} icon={require("./images/uc/password.png")}>Example0</StripedButton>

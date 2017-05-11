@@ -264,7 +264,7 @@ export class ListView extends Component {
 
 
 
-    console.log("@listView" + this.props.height)
+    // console.log("@listView" + this.props.height)
     return (
       <ScrollView
         onResponderRelease={this._scrollRelease.bind(this)}

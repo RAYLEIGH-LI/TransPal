@@ -95,7 +95,7 @@ export class Home extends Component {
       console.log("请求获取课程列表："+this.start+","+this.take)
 
       //模拟测试数据begin
-      if(this.start<5){
+      if(this.start<=5){
         var courseInfo=api.courseInfo
       }
       else{
@@ -108,6 +108,7 @@ export class Home extends Component {
       // const data = await get_courses(this.start, this.take)
 
       this.courses = [...this.courses, ...data.data.courses]
+      console.log(this.start+"+"+data.data.courses.length)
       this.start = this.start + data.data.courses.length
       this.hasMore = this.courses.length < data.data.total
       this.setState({
@@ -141,7 +142,7 @@ export class Home extends Component {
   }
   _renderItem(course, i) {
 
-    console.log("renderItem:"+course+","+i)
+    // console.log("renderItem:"+course+","+i)
 
 
     if(!course) {
@@ -153,6 +154,9 @@ export class Home extends Component {
                   dot={<View style={{backgroundColor:'rgba(0,0,0,.1)', width: 8, height: 8,borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3,}} />}
                   activeDot={<View style={{backgroundColor: 'white', width: 8, height: 8, borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3,}} />}
           >
+            <View style={{flex : 1}}>
+              <Image source={require("./images/slide0.jpeg")} style={sliderItemStyle} resizeMode="stretch" />
+            </View>
             <View style={{flex : 1}}>
               <Image source={require("./images/slide1.jpg")} style={sliderItemStyle} resizeMode="stretch" />
             </View>
@@ -172,7 +176,7 @@ export class Home extends Component {
 
 
           <View style={{marginLeft : -10, marginTop : 10}}>
-            <Image source={require("./images/all-news.png")} style={{height : 30}} resizeMode="contain" />
+            <Image source={require("./images/info-title.png")} style={{height : 30}} resizeMode="contain" />
           </View>
 
         </View>

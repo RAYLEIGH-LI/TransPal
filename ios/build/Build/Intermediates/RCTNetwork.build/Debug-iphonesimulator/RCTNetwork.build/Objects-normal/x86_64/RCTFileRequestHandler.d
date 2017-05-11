@@ -1,10 +1,4 @@
 dependencies: \
-  /Users/njxiaohan/react-native/app/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
-  /Users/njxiaohan/react-native/app/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
-  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestHandler.h \
-  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
-  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/njxiaohan/react-native/app/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h
+  /Users/njxiaohan/react-native/TransPal/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.m \
+  /Users/njxiaohan/react-native/TransPal/node_modules/react-native/Libraries/Network/RCTFileRequestHandler.h \
+  /Users/njxiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h
