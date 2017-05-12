@@ -96,7 +96,7 @@ export const Routes = {
 
     name : "Course",
     Inverse : true,
-    Title : "课程详情",
+    Title : "文章详情",
     get Component() { return require("./Course").Course}
 
   },

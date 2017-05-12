@@ -151,6 +151,7 @@ export class Home extends Component {
         <View>
 
           <Swiper height={Dimensions.get("window").width * 0.523}
+                  autoplay={true} 
                   dot={<View style={{backgroundColor:'rgba(0,0,0,.1)', width: 8, height: 8,borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3,}} />}
                   activeDot={<View style={{backgroundColor: 'white', width: 8, height: 8, borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3,}} />}
           >

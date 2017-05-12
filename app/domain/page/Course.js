@@ -57,7 +57,7 @@ export class Course extends Component {
       tabIndex: event.nativeEvent.selectedSegmentIndex
     })
   }
-  
+
   async _buy(){
     const result = await post_order(this.props.route.course.id)
     if(assert_request(result)){
@@ -73,7 +73,7 @@ export class Course extends Component {
 
       }
     }
-    
+
   }
 
   render(){
@@ -83,23 +83,55 @@ export class Course extends Component {
     const {course} = this.props.route
     return <View style={{flex : 1}}>
       <ScrollView style={{flex : 1}}>
-        <Image source={{uri : course.image}} style={sliderItemStyle} />
+        {course.image ?
+          <Image source={{uri : course.image}} style={sliderItemStyle} />
+          : null}
+        {/* <Image source={{uri : course.image}} style={sliderItemStyle} /> */}
 
-        <View style={{...flexCenter, marginTop : 20}}>
+
+        <View>
+          <Block>
+            <Title>{course.title}</Title>
+            <LabelValue label="日期">
+              <Description>{course.start.substring(0, 10)}</Description>
+            </LabelValue>
+            <LabelValue label="作者">
+              <Description>{course.author}</Description>
+            </LabelValue>
+          </Block>
+
+          <Block>
+            <View>
+              <IconLabel icon={require("./images/introduce.png")}>内容</IconLabel>
+              <View>
+                <Description>{course.description}</Description>
+              </View>
+            </View>
+          </Block>
+        </View>
+
+
+        {/* <View style={{...flexCenter, marginTop : 20}}>
           <SegmentedControl
             selectedIndex={tabIndex}
-            values={['课程介绍', '课程目录']}
+            // values={['课程介绍', '课程目录']}
+            values={['详情']}
             onChange={this._change.bind(this)}
             style={{width : 200}}
           />
         </View>
 
-        {tabIndex == 0 &&
+ */}
+
+        {/* {tabIndex == 0 &&
         <View>
           <Block>
             <Title>{course.title}</Title>
-            <LabelValue label="开课时间">
+            <LabelValue label="日期">
               <Description>{course.start.substring(0, 10)}</Description>
+            </LabelValue>
+            <LabelValue label="作者">
+              <Description>{course.author}</Description>
             </LabelValue>
             <LabelValue label="上课地点">
               <Description>{course.address}</Description>
@@ -112,7 +144,7 @@ export class Course extends Component {
 
           <Block>
             <View>
-              <IconLabel icon={require("./images/introduce.png")}>课程简介</IconLabel>
+              <IconLabel icon={require("./images/introduce.png")}>内容</IconLabel>
               <View>
                 <Description>{course.description}</Description>
               </View>
@@ -140,12 +172,12 @@ export class Course extends Component {
               })}
             </Block>
           </View>
-        }
+        } */}
       </ScrollView>
 
-      <View style={{height : 42}}>
+      {/* <View style={{height : 42}}>
         <ZBottomButton onPress={this._buy.bind(this)}>购买</ZBottomButton>
-      </View>
+      </View> */}
     </View>
   }
 }
