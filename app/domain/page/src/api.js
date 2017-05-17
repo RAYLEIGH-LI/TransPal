@@ -33,7 +33,7 @@ export default {
       icon: require('./img/Home/icon_homepage_beautyCategory.png',
     )},
     {
-      title: '测试1',
+      title: '金融',
       icon: require('./img/Home/icon_homepage_foodCategory.png',
     )},
     {
