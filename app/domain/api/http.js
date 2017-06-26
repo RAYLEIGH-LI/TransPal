@@ -60,7 +60,13 @@ const http_factory = (method) => {
       url = `${url}${queryString && "?"+queryString}`
     } else {
       requestOptions.headers = {...requestOptions.headers, 'Content-Type': 'application/json'}
-      requestOptions.body = JSON.stringify(params)
+      // requestOptions.body = JSON.stringify(params)
+
+        let formData = new FormData();
+
+        formData.append("param",params)
+
+        requestOptions.body = formData
     }
 
 

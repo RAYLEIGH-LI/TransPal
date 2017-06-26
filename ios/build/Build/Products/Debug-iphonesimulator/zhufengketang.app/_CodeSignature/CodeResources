@@ -44,10 +44,6 @@
 		<data>
 		A3Blsq81thgzYRKF3BTvpbsUY/M=
 		</data>
-		<key>AppIcon40x40@3x.png</key>
-		<data>
-		YaxH/v8/i66wS8bRBadBkkY0YWI=
-		</data>
 		<key>AppIcon60x60@2x.png</key>
 		<data>
 		5+IPZNuO1080w2BEr1xuqQv23gI=
@@ -58,11 +54,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		1Oyyd6BU21M3D2jJTthp0Szn3Co=
+		YNYxpl7iJZdXzHnjQ3dg7F6ymrk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZsfM9iOTyxKUvh1wXWtq6jkRH9c=
+		9V1XKqmnTB4yjTDCAhTsSsRFrtU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -70,19 +66,11 @@
 		</data>
 		<key>splash-568h@2x.png</key>
 		<data>
-		OKvABla2qhh1Sv0uG6Z4duFQWIA=
+		JhGZMjZFL4isJFqf+qGuvtHsb7c=
 		</data>
 		<key>splash-700-568h@2x.png</key>
 		<data>
-		OKvABla2qhh1Sv0uG6Z4duFQWIA=
-		</data>
-		<key>splash-700@2x.png</key>
-		<data>
-		0S18D+Kb1My1Uj2yUePL9XAKsQk=
-		</data>
-		<key>splash-800-667h@2x.png</key>
-		<data>
-		AJdPK4bA11k9TFqpK3lHs2sJAKw=
+		JhGZMjZFL4isJFqf+qGuvtHsb7c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -197,17 +185,6 @@
 			ed4dito57y9MhgMpR9SJUr3WFwZIq8APGL5Wk6zwN6k=
 			</data>
 		</dict>
-		<key>AppIcon40x40@3x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YaxH/v8/i66wS8bRBadBkkY0YWI=
-			</data>
-			<key>hash2</key>
-			<data>
-			l0mCP/qYvNUm9Rf/szCoib/5FnIWygGsVwiXAYOYfEk=
-			</data>
-		</dict>
 		<key>AppIcon60x60@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -234,55 +211,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1Oyyd6BU21M3D2jJTthp0Szn3Co=
+			YNYxpl7iJZdXzHnjQ3dg7F6ymrk=
 			</data>
 			<key>hash2</key>
 			<data>
-			DuAHqh4da4i6CFy9FGEMCE3dv+jlj7X5+3TW/gT2DTI=
+			kepfR9LqzjCU5y7gp4OZnx9U1eM4CdtuF2SfJdDwJiI=
 			</data>
 		</dict>
 		<key>splash-568h@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OKvABla2qhh1Sv0uG6Z4duFQWIA=
+			JhGZMjZFL4isJFqf+qGuvtHsb7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			5hR6fUHIQgmruEadV8PzALMcA2+XrvrT+2eVrbnIK6w=
+			NulpZ3cudk0tXPXHWwY0kOvYn6z5eVDPw+0ADfuJFLY=
 			</data>
 		</dict>
 		<key>splash-700-568h@2x.png</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OKvABla2qhh1Sv0uG6Z4duFQWIA=
+			JhGZMjZFL4isJFqf+qGuvtHsb7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			5hR6fUHIQgmruEadV8PzALMcA2+XrvrT+2eVrbnIK6w=
-			</data>
-		</dict>
-		<key>splash-700@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0S18D+Kb1My1Uj2yUePL9XAKsQk=
-			</data>
-			<key>hash2</key>
-			<data>
-			84hwl82Tf/VxGGIAS1MY+TypDh4xRpF6BjY4FbvlqeQ=
-			</data>
-		</dict>
-		<key>splash-800-667h@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			AJdPK4bA11k9TFqpK3lHs2sJAKw=
-			</data>
-			<key>hash2</key>
-			<data>
-			djxSrcjsmlGLw0Y+5YLawwqIAuOrVkQ3wA/QnGkxLhw=
+			NulpZ3cudk0tXPXHWwY0kOvYn6z5eVDPw+0ADfuJFLY=
 			</data>
 		</dict>
 	</dict>

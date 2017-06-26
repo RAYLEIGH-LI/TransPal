@@ -146,6 +146,14 @@ export const Routes = {
     Title : "关于我们",
 
     get Component() { return require("./About").About}
+  },
+  /** 开户协议 **/
+  AccountAgreement: {
+    name : "AccountAgreement",
+    Inverse : true,
+    Title : "开户协议",
+
+    get Component() { return require("./AccountAgreement").AccountAgreement}
   }
 
 

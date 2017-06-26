@@ -24,7 +24,6 @@
  */
 
 
-
 import {http_get, http_post, http_put, url_mapper} from "domain/api/http"
 
 import RNFetchBlob from 'react-native-fetch-blob'
@@ -34,20 +33,21 @@ import {get_local_token} from "domain/store/storage"
  * 请求获取token,并缓存在本地
  */
 export const get_token = async (force) => {
-  if(!force && store.getState().user.token) {
-    return
-  }
-  return await http_get("/token")
+    if (!force && store.getState().user.token) {
+        return
+    }
+    return '123456'
+    // return await http_get("/token")
 }
 
-function _arrayBufferToBase64( buffer ) {
-  var binary = '';
-  var bytes = new Uint8Array( buffer );
-  var len = bytes.byteLength;
-  for (var i = 0; i < len; i++) {
-    binary += String.fromCharCode( bytes[ i ] );
-  }
-  return window.btoa( binary );
+function _arrayBufferToBase64(buffer) {
+    var binary = '';
+    var bytes = new Uint8Array(buffer);
+    var len = bytes.byteLength;
+    for (var i = 0; i < len; i++) {
+        binary += String.fromCharCode(bytes[i]);
+    }
+    return window.btoa(binary);
 }
 
 /**
@@ -55,7 +55,7 @@ function _arrayBufferToBase64( buffer ) {
  */
 
 export const get_sign_alipay = (orderId) => {
-  return http_get('/order/sign/alipay', {orderId})
+    return http_get('/order/sign/alipay', {orderId})
 }
 
 /**
@@ -64,30 +64,39 @@ export const get_sign_alipay = (orderId) => {
  */
 export const get_image = async () => {
 
-  // 获取实际的请求地址
-  const url = url_mapper("/imgcode")
+    console.log("@get_image[图片验证码] ")
 
-  // 从AnsycStorage中取得token
-  const token = await get_local_token()
-  console.log("@get_image[图片验证码] with token " + token)
-
-  const result = await RNFetchBlob.fetch('GET', url, {
-    token
-  })
-  
-  const base64String = result.base64()
+    const param = JSON.stringify({
+        width: 100,
+        height: 42,
+        codeCount: 4,
+        imageType: 'png'
+    })
 
 
-  return "data:image/png;base64," + base64String
+    return http_get('/m/vcode-query', {param})
+
+    // return "data:image/png;base64," + result
+
 
 }
 
 /**
  * 获取用户注册码
  */
-export const get_user_vcode = (type, mobile, imgcode) => {
-  console.log("@get_user_vcode")
-  return http_get("/user/vcode", {type, mobile, "img_code" : imgcode})
+export const get_user_vcode = async (mobile) => {
+
+    console.log("@get_user_vcode[获取短信验证码] with mobile " + mobile)
+
+    const param = JSON.stringify({
+        pkgCmd: 'sms.send',
+        phoneNbr: mobile,
+        smsType: 'validate'
+    })
+
+    return http_get("/m/sms-send", {param})
+
+
 }
 
 
@@ -95,8 +104,19 @@ export const get_user_vcode = (type, mobile, imgcode) => {
  * 用户注册
  */
 export const register = (data) => {
-  console.log("@register")
-  return http_post("/user", data)
+    console.log("@register[用户注册] with data "+data)
+
+    const param = JSON.stringify({
+        pkgCmd: 'sms.submit',
+        phoneNbr: data.mobile,
+        smsID:data.smsId,
+        valiCode:data.vcode,
+        userName:data.name,
+        loginPwd: data.password
+    })
+
+
+    return http_post("/m/user-register", param)
 }
 
 
@@ -104,7 +124,7 @@ export const register = (data) => {
  * 重置密码
  */
 export const reset = (data) => {
-  console.log("@reset password")
+    console.log("@reset password")
 }
 
 /**
@@ -112,8 +132,8 @@ export const reset = (data) => {
  */
 export const login = (data) => {
 
-  console.log("@login")
-  return http_get("/user/identity", data)
+    console.log("@login")
+    return http_get("/user/identity", data)
 
 }
 
@@ -121,8 +141,8 @@ export const login = (data) => {
  * 获取课程
  */
 export const get_courses = (start, take) => {
-  console.log("@get_courses")
-  return http_get("/course", {start, take})
+    console.log("@get_courses")
+    return http_get("/course", {start, take})
 }
 
 
@@ -130,8 +150,8 @@ export const get_courses = (start, take) => {
  * 获取订单
  */
 export const get_orders = (start, take) => {
-  console.log("@get_ourder")
-  return http_get("/order", {start, take})
+    console.log("@get_ourder")
+    return http_get("/order", {start, take})
 }
 
 
@@ -140,13 +160,13 @@ export const get_orders = (start, take) => {
  * @param courseId
  */
 export const post_order = (courseId) => {
-  console.log("@post_order")
-  return http_post(`/order/${courseId}`)
+    console.log("@post_order")
+    return http_post(`/order/${courseId}`)
 
 }
 
 
 export const put_user = (data) => {
-  console.log("@put_user")
-  return http_put(`/user`, data)
+    console.log("@put_user")
+    return http_put(`/user`, data)
 }

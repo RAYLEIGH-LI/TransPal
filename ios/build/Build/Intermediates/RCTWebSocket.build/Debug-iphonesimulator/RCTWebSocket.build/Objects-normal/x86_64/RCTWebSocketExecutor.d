@@ -1,4 +1,23 @@
 dependencies: \
-  /Users/njxiaohan/react-native/TransPal/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m \
-  /Users/njxiaohan/react-native/TransPal/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.h \
-  /Users/njxiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h
+  /Users/xiaohan/react-native/TransPal/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.m \
+  /Users/xiaohan/react-native/TransPal/node_modules/react-native/Libraries/WebSocket/RCTWebSocketExecutor.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptExecutor.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/xiaohan/react-native/TransPal/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/xiaohan/react-native/TransPal/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h

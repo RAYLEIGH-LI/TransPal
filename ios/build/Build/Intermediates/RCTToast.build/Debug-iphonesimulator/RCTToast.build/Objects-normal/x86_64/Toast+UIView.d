@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/njxiaohan/react-native/app/node_modules/@remobile/react-native-toast/ios/RCTToast/Toast+UIView.m \
-  /Users/njxiaohan/react-native/app/node_modules/@remobile/react-native-toast/ios/RCTToast/Toast+UIView.h
+  /Users/xiaohan/react-native/TransPal/node_modules/@remobile/react-native-toast/ios/RCTToast/Toast+UIView.m \
+  /Users/xiaohan/react-native/TransPal/node_modules/@remobile/react-native-toast/ios/RCTToast/Toast+UIView.h

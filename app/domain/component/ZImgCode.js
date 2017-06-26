@@ -39,44 +39,54 @@ export class ZImgCode extends Component{
 
   constructor(){
     super()
-    
+
     this.state = {
+      code : null,
       img : null
     }
-    
+
   }
-  
-  
+
+
   async _load(){
-  
-    const img = await get_image()
+
+    const imgJson = await get_image();
+    const code = imgJson.code
+    const img="data:image/png;base64," + imgJson.imageString;
+
+    // const img = await get_image()
     this.setState({
+      code : code,
       img : {uri : img}
     })
-  
+
+    this.props.code=code
+
   }
-  
+
   componentDidMount(){
-    
+
     this._load()
   }
 
   _change(value){
     this.props.onChange(value)
   }
-  
+
   _changeImage(){
     this._load()
   }
 
   render(){
     const {error, ...others} = this.props
-    const {img} = this.state
+    const {code,img} = this.state
 
+    console.log("render")
+    console.log(this.props)
 
     return  <View style={styles.container}>
 
-      <TextInput style={styles.input}   onChangeText={this._change.bind(this)} {...others} placeholder="图片验证码"
+      <TextInput style={styles.input} autoCapitalize="characters"  onChangeText={this._change.bind(this)} {...others} placeholder="图片验证码"
                  underlineColorAndroid={"rgba(0,0,0,0)"}
 
       />
