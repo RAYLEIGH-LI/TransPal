@@ -18,4 +18,4 @@ console.log("My first app....")
   import {Entry} from './app/entry'
 
 
-AppRegistry.registerComponent('zhufengketang', () => Entry);
+AppRegistry.registerComponent('transpal', () => Entry);

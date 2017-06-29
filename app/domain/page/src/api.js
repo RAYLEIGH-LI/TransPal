@@ -43,30 +43,30 @@ export default {
             )
         },
         {
-            title: '测试2',
-            icon: require('./img/Home/icon_homepage_foodCategory.png',
+            title: '服务咨询',
+            icon: require('./img/Home/icon_homepage_beautyCategory.png',
             )
         },
         {
-            title: '测试3',
+            title: '使用指南',
             icon: require('./img/Home/icon_homepage_foodCategory.png',
             )
         },
-        {
-            title: '测试4',
-            icon: require('./img/Home/icon_homepage_foodCategory.png',
-            )
-        },
-        {
-            title: '测试5',
-            icon: require('./img/Home/icon_homepage_foodCategory.png',
-            )
-        },
-        {
-            title: '测试6',
-            icon: require('./img/Home/icon_homepage_foodCategory.png',
-            )
-        },
+        // {
+        //     title: '测试4',
+        //     icon: require('./img/Home/icon_homepage_foodCategory.png',
+        //     )
+        // },
+        // {
+        //     title: '测试5',
+        //     icon: require('./img/Home/icon_homepage_foodCategory.png',
+        //     )
+        // },
+        // {
+        //     title: '测试6',
+        //     icon: require('./img/Home/icon_homepage_foodCategory.png',
+        //     )
+        // },
     ],
 
     // { title: '周边游', icon: require('./img/Home/icon_homepage_foottreatCategory.png') },

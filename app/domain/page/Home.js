@@ -184,6 +184,10 @@ export class Home extends Component {
                             <Image source={require("./images/slide2.jpg")} style={sliderItemStyle}
                                    resizeMode="contain"/>
                         </View>
+                        <View style={{flex: 1}}>
+                            <Image source={require("./images/slide3.jpg")} style={sliderItemStyle}
+                                   resizeMode="contain"/>
+                        </View>
                     </Swiper>
                     <View
                         style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
