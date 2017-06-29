@@ -73,7 +73,7 @@ class _App extends Component {
           return false
         } else {
           this.nextTimeExit = true
-          alert("再按一次回退键退出珠峰课堂")
+          alert("再按一次回退键退出通行宝")
           setTimeout( (() => {
             this.nextTimeExit = false
           }).bind(this), 5000)

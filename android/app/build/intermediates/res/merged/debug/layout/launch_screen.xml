@@ -3,4 +3,4 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/splash">
-</LinearLayout><!-- From: file:/Users/njxiaohan/react-native/TransPal/android/app/src/main/res/layout/launch_screen.xml -->
+</LinearLayout><!-- From: file:/Users/xiaohan/react-native/TransPal/android/app/src/main/res/layout/launch_screen.xml -->

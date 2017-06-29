@@ -27,18 +27,18 @@ import React, {Component} from 'react'
 
 
 import {
-  View,
-  Text,
-  Image,
-  Dimensions,
-  ScrollView,
-  Alert,
-  ActivityIndicator,
-  StyleSheet,
-  RefreshControl,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  Platform
+    View,
+    Text,
+    Image,
+    Dimensions,
+    ScrollView,
+    Alert,
+    ActivityIndicator,
+    StyleSheet,
+    RefreshControl,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    Platform
 } from 'react-native'
 
 
@@ -53,211 +53,230 @@ import {get_courses} from "domain/api/apis"
 import api from './src/api'
 
 
-
 const {width, height} = Dimensions.get('window')
 
-const sliderItemStyle = {width, height : width * 0.523}
+const sliderItemStyle = {width, height: width * 0.523}
 
 
 export class Home extends Component {
 
 
-  constructor(){
-    super()
+    constructor() {
+        super()
 
-    this.state = {
-      initialized : false
-    }
-
-  }
-
-  componentDidMount(){
-
-    this.start = 0
-    this.take = 5
-    this.hasMore = false
-
-    // 第一个填另一个占位符
-    // 因为轮播图也在listview中
-    this.courses = [null]
-
-    this.load_course()
-  }
-
-
-  async load_course () {
-    // 因为轮播图等也放在了listView中
-
-    if(this.loading) return
-
-    try {
-      this.loading = true
-      console.log("请求获取课程列表："+this.start+","+this.take)
-
-      //模拟测试数据begin
-      if(this.start<=5){
-        var courseInfo=api.courseInfo
-      }
-      else{
-        var courseInfo=api.courseInfoNone
-      }
-      const data=courseInfo
-      console.log(data)
-      //模拟测试数据end
-
-      // const data = await get_courses(this.start, this.take)
-
-      this.courses = [...this.courses, ...data.data.courses]
-      console.log(this.start+"+"+data.data.courses.length)
-      this.start = this.start + data.data.courses.length
-      this.hasMore = this.courses.length < data.data.total
-      this.setState({
-        initialized : true
-      }, (() => {
-        this.refs.listView.append(data.data.courses)
-      }).bind(this))
-    }
-    catch(e) {
-    }
-    finally{
-      this.loading = false
-    }
-  }
-
-  onMenuSelected(index) {
-      Alert.alert(""+index)
-  }
-
-
-  loadMenuInfos() {
-      return api.menuInfo
-  }
-
-
-
-  _pressCourse(course) {
-    return () => {
-      this.props.navigator.push({...Routes.Course, course})
-    }
-  }
-  _renderItem(course, i) {
-
-    // console.log("renderItem:"+course+","+i)
-
-
-    if(!course) {
-
-      return(
-        <View>
-
-          <Swiper height={Dimensions.get("window").width * 0.523}
-                  autoplay={true} 
-                  dot={<View style={{backgroundColor:'rgba(0,0,0,.1)', width: 8, height: 8,borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3,}} />}
-                  activeDot={<View style={{backgroundColor: 'white', width: 8, height: 8, borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3,}} />}
-          >
-            <View style={{flex : 1}}>
-              <Image source={require("./images/slide0.jpeg")} style={sliderItemStyle} resizeMode="stretch" />
-            </View>
-            <View style={{flex : 1}}>
-              <Image source={require("./images/slide1.jpg")} style={sliderItemStyle} resizeMode="stretch" />
-            </View>
-            <View style={{flex : 1}}>
-              <Image source={require("./images/slide2.jpg")} style={sliderItemStyle} resizeMode="contain" />
-            </View>
-          </Swiper>
-          <View style={{height : 10, backgroundColor : "#f2f3f4", width : Dimensions.get("window").width }}></View>
-
-          <HomeMenuView
-            menuInfos={this.loadMenuInfos()}
-            onMenuSelected={(index) => this.onMenuSelected(index)}
-          />
-
-          <View style={{height : 10, backgroundColor : "#f2f3f4", width : Dimensions.get("window").width }}></View>
-
-
-
-          <View style={{marginLeft : -10, marginTop : 10}}>
-            <Image source={require("./images/info-title.png")} style={{height : 30}} resizeMode="contain" />
-          </View>
-
-        </View>
-      )
-    }
-    else {
-
-      return (
-        <CourseCardBig onPress={this._pressCourse(course).bind(this)} {...course}  />
-      )
-
-    }
-  }
-
-
-  _onScrollToBottom(y){
-    this.y = y
-    this.load_course()
-
-  }
-
-  _renderBottomIndicator(){
-    if(!this.state.initialized) {
-      return false
-    }
-    if(!this.hasMore) {
-      return <View style={{height : 42, ...flexCenter}}>
-        <Text>没有更多了</Text>
-      </View>
-    }
-    return (
-      <View style={{height : 42, ...flexCenter}}>
-        {this.loading ?
-
-          <Text>正在加载...</Text>
-            :
-          <ActivityIndicator />
+        this.state = {
+            initialized: false
         }
-      </View>
-    )
-  }
 
-
-  _refresh(){
-
-    this.start = 0
-    this.hasMore = false
-    this.courses = [null]
-    this.refs.listView.reset(this.courses)
-    this.load_course();
-  }
-
-  render(){
-
-    const {initialized} = this.state
-
-    if(!initialized) {
-      return <View style={{ ...flexCenter, height : Dimensions.get("window").height}}>
-        <ActivityIndicator />
-      </View>
     }
 
-    return (
-      <View>
+    componentDidMount() {
 
-        <ListView
-          ref="listView"
-          initialData={[null]}
-          renderItem={this._renderItem.bind(this)}
-          onScrollToBottom={this._onScrollToBottom.bind(this)}
-          renderBottomIndicator={this._renderBottomIndicator.bind(this)}
-          refreshControl={
-          <RefreshControl refreshing={false} onRefresh={this._refresh.bind(this)} />
+        this.start = 0
+        this.take = 5
+        this.hasMore = false
+
+        // 第一个填另一个占位符
+        // 因为轮播图也在listview中
+        this.courses = [null]
+
+        this.load_course()
+    }
+
+
+    async load_course() {
+        // 因为轮播图等也放在了listView中
+
+        if (this.loading) return
+
+        try {
+            this.loading = true
+            console.log("请求获取课程列表：" + this.start + "," + this.take)
+
+            //模拟测试数据begin
+            if (this.start <= 5) {
+                var courseInfo = api.courseInfo
+            }
+            else {
+                var courseInfo = api.courseInfoNone
+            }
+            const data = courseInfo
+            console.log(data)
+            //模拟测试数据end
+
+            // const data = await get_courses(this.start, this.take)
+
+            this.courses = [...this.courses, ...data.data.courses]
+            console.log(this.start + "+" + data.data.courses.length)
+            this.start = this.start + data.data.courses.length
+            this.hasMore = this.courses.length < data.data.total
+            this.setState({
+                initialized: true
+            }, (() => {
+                this.refs.listView.append(data.data.courses)
+            }).bind(this))
         }
-          height={Dimensions.get("window").height - (Platform.OS === 'ios' ? 49 : 69) }
-        />
-      </View>
-    )
-  }
+        catch (e) {
+        }
+        finally {
+            this.loading = false
+        }
+    }
 
+    onMenuSelected(index) {
+        Alert.alert("" + index)
+    }
+
+
+    loadMenuInfos() {
+        return api.menuInfo
+    }
+
+
+    _pressCourse(course) {
+        return () => {
+            this.props.navigator.push({...Routes.Course, course})
+        }
+    }
+
+    _renderItem(course, i) {
+
+        console.log("renderItem:"+course+","+i)
+        console.log(course)
+
+        if (!course) {
+
+            return (
+                <View>
+
+                    <Swiper height={Dimensions.get("window").width * 0.523}
+                            autoplay={true}
+                            dot={<View style={{
+                                backgroundColor: 'rgba(0,0,0,.1)',
+                                width: 8,
+                                height: 8,
+                                borderRadius: 4,
+                                marginLeft: 3,
+                                marginRight: 3,
+                                marginTop: 3,
+                                marginBottom: 3,
+                            }}/>}
+                            activeDot={<View style={{
+                                backgroundColor: 'white',
+                                width: 8,
+                                height: 8,
+                                borderRadius: 4,
+                                marginLeft: 3,
+                                marginRight: 3,
+                                marginTop: 3,
+                                marginBottom: 3,
+                            }}/>}
+                    >
+                        <View style={{flex: 1}}>
+                            <Image source={require("./images/slide0.jpeg")} style={sliderItemStyle}
+                                   resizeMode="stretch"/>
+                        </View>
+                        <View style={{flex: 1}}>
+                            <Image source={require("./images/slide1.jpg")} style={sliderItemStyle}
+                                   resizeMode="stretch"/>
+                        </View>
+                        <View style={{flex: 1}}>
+                            <Image source={require("./images/slide2.jpg")} style={sliderItemStyle}
+                                   resizeMode="contain"/>
+                        </View>
+                    </Swiper>
+                    <View
+                        style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
+
+                    <HomeMenuView
+                        menuInfos={this.loadMenuInfos()}
+                        onMenuSelected={(index) => this.onMenuSelected(index)}
+                    />
+
+                    <View
+                        style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
+
+
+                    <View style={{marginLeft: -10, marginTop: 10}}>
+                        <Image source={require("./images/info-title.png")} style={{height: 30}} resizeMode="contain"/>
+                    </View>
+
+                </View>
+            )
+        }
+        else {
+
+            return (
+                <CourseCardBig onPress={this._pressCourse(course).bind(this)} {...course}  />
+            )
+
+        }
+    }
+
+
+    _onScrollToBottom(y) {
+        this.y = y
+        this.load_course()
+
+    }
+
+    _renderBottomIndicator() {
+        if (!this.state.initialized) {
+            return false
+        }
+        if (!this.hasMore) {
+            return <View style={{height: 42, ...flexCenter}}>
+                <Text>没有更多了</Text>
+            </View>
+        }
+        return (
+            <View style={{height: 42, ...flexCenter}}>
+                {this.loading ?
+
+                    <Text>正在加载...</Text>
+                    :
+                    <ActivityIndicator />
+                }
+            </View>
+        )
+    }
+
+
+    _refresh() {
+        this.start = 0
+        this.hasMore = false
+        this.courses = [null]
+        // this.refs.listView.reset(this.courses)
+        this.load_course();
+    }
+
+    render() {
+
+        const {initialized} = this.state
+
+        if (!initialized) {
+            return <View style={{...flexCenter, height: Dimensions.get("window").height}}>
+                <ActivityIndicator />
+            </View>
+        }
+
+        return (
+            <View>
+
+                <ListView
+                    ref="listView"
+                    initialData={[null]}
+                    renderItem={this._renderItem.bind(this)}
+                    onScrollToBottom={this._onScrollToBottom.bind(this)}
+                    renderBottomIndicator={this._renderBottomIndicator.bind(this)}
+                    refreshControl={
+                        <RefreshControl refreshing={false} onRefresh={this._refresh.bind(this)}/>
+                    }
+                    height={Dimensions.get("window").height - (Platform.OS === 'ios' ? 49 : 69) }
+                />
+            </View>
+        )
+    }
 
 
 }

@@ -13,4 +13,7 @@ import {
 
 import {Entry} from './app/entry'
 
-AppRegistry.registerComponent('zhufengketang', () => Entry);
+console.disableYellowBox = true;
+console.warn('YellowBox is disabled.');
+
+AppRegistry.registerComponent('transpal', () => Entry);

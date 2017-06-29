@@ -36,6 +36,8 @@ import {
   flexCenter,
 } from "basic"
 
+import DeviceInfo from 'react-native-device-info'
+
 import {
   ZButton
 } from 'domain/component'
@@ -67,8 +69,33 @@ export class Example0 extends Component {
   
   render() {
     const {loading} = this.state
-    
-    return (
+      console.log(111111111111111111)
+      console.log("getUniqueID:"+DeviceInfo.getUniqueID())
+      console.log("getManufacturer:"+DeviceInfo.getManufacturer())
+      console.log("getBrand:"+DeviceInfo.getBrand())
+      console.log("getModel:"+DeviceInfo.getModel())
+      console.log("getDeviceId:"+DeviceInfo.getDeviceId())
+      console.log("getSystemName:"+DeviceInfo.getSystemName())
+      console.log("getSystemVersion:"+DeviceInfo.getSystemVersion())
+      console.log("getBundleId:"+DeviceInfo.getBundleId())
+      console.log("getBuildNumber:"+DeviceInfo.getBuildNumber())
+      console.log("getVersion:"+DeviceInfo.getVersion())
+      console.log("getReadableVersion:"+DeviceInfo.getReadableVersion())
+      console.log("getDeviceName:"+DeviceInfo.getDeviceName())
+      console.log("getUserAgent:"+DeviceInfo.getUserAgent())
+      console.log("getDeviceLocale:"+DeviceInfo.getDeviceLocale())
+      console.log("getDeviceCountry:"+DeviceInfo.getDeviceCountry())
+      console.log("getTimezone:"+DeviceInfo.getTimezone())
+      console.log("getInstanceID:"+DeviceInfo.getInstanceID())
+      console.log("isEmulator:"+DeviceInfo.isEmulator())
+      console.log("isTablet:"+DeviceInfo.isTablet())
+      console.log("isPinOrFingerprintSet:"+DeviceInfo.isPinOrFingerprintSet())
+
+
+      console.log(JSON.stringify(DeviceInfo))
+
+
+      return (
       <View style={styles.container}>
         
         <Text>

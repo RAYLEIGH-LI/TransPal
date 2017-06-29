@@ -25,3 +25,5 @@
 
 // export const SERVICE_BASE = "https://ketang.zhufengpeixun.cn"
 export const SERVICE_BASE = "http://localhost:8080"
+// export const SERVICE_BASE = "http://10.0.2.2:8080"
+// export const SERVICE_BASE = "http://192.168.56.1:8080"
