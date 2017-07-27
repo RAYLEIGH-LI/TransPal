@@ -24,7 +24,6 @@
  */
 
 import React, {Component} from 'react'
-
 import {View, Text, StyleSheet, ScrollView, Link} from 'react-native'
 
 const text = "通行宝公司简介：\n"+

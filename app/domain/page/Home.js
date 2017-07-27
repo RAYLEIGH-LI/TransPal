@@ -141,8 +141,8 @@ export class Home extends Component {
 
     _renderItem(course, i) {
 
-        console.log("renderItem:"+course+","+i)
-        console.log(course)
+        // console.log("renderItem:"+course+","+i)
+        // console.log(course)
 
         if (!course) {
 

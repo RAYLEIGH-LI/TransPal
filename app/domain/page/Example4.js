@@ -25,7 +25,9 @@
 
 
 import React, {Component} from 'react'
-import {View, Dimensions, PanResponder, Text, Animated} from 'react-native'
+import {Alert, Button, View, Dimensions, PanResponder, Text, TouchableOpacity, Animated} from 'react-native'
+import {SegmentedControl, flexCenter, format_currency} from 'basic'
+import {COLOR_TITLE, COLOR_TEXT_LIGHT, COLOR_PRICE, COLOR_INFO} from "domain/def"
 
 const CARD_WIDTH = 200
 const W = Dimensions.get("window").width
@@ -91,7 +93,7 @@ export class Example4 extends Component {
     let lastX = null
     let _self = this
 
-    const stopAtFunction = stop_at(4)
+    const stopAtFunction = stop_at(6)
     this._panResponder = PanResponder.create({
 
       onStartShouldSetPanResponder: (evt, gestureState) => true,
@@ -102,7 +104,7 @@ export class Example4 extends Component {
 
         if(lastX !== null) {
           const diff = -Math.floor(gestureState.moveX - lastX )
-          const nextState = next_state(_self.state, diff, 4)
+          const nextState = next_state(_self.state, diff, 6)
           _self.setState(nextState, () => {
 
             //
@@ -147,36 +149,74 @@ export class Example4 extends Component {
 
     const {x} = this.state
     return (
-      <Animated.View style={{flexDirection : "row", marginLeft: x.interpolate({inputRange : [W - total(4), 0], outputRange:[total(4) - W, 0]})}} {...this._panResponder.panHandlers}>
-
+        <View>
+      <Animated.View style={{flexDirection : "row", marginLeft: x.interpolate({inputRange : [W - total(6), 0], outputRange:[total(6) - W, 0]})}} {...this._panResponder.panHandlers}>
 
         <View style={{width : placeHolderW}}></View>
-        <Card width={CARD_WIDTH} x={x} idx={1} >
-          <Text>1</Text>
+        <Card width={CARD_WIDTH} x={x} idx={1} color="skyblue" >
+          <Text>类别：苏通卡—储值卡</Text>
+          <Text>卡主：孙*</Text>
+          <Text>车牌：苏A888888</Text>
+          <Text>卡号：***2311</Text>
         </Card>
 
         <View style={{width : placeHolderW / 2}}  ></View>
-        <Card width={CARD_WIDTH} x={x} idx={2}>
-          <Text>2</Text>
+        <Card width={CARD_WIDTH} x={x} idx={2} color="yellow">
+          <Text>类别：苏通卡—储值卡</Text>
+          <Text>卡主：孙*</Text>
+          <Text>车牌：苏A888888</Text>
+          <Text>卡号：***2311</Text>
         </Card>
 
         <View style={{width : placeHolderW / 2}}></View>
-        <Card width={CARD_WIDTH } x={x} idx={3} >
-          <Text>3</Text>
+        <Card width={CARD_WIDTH } x={x} idx={3} color="whitesmoke" >
+          <Text>类别：苏通卡—储值卡</Text>
+          <Text>卡主：孙*</Text>
+          <Text>车牌：苏A888888</Text>
+          <Text>卡号：***2311</Text>
         </Card> 
 
         <View style={{width : placeHolderW / 2}}></View>
-        <Card width={CARD_WIDTH} x={x} idx={4} >
-          <Text>4</Text>
-        </Card> 
+        <Card width={CARD_WIDTH} x={x} idx={4} color="gray">
+          <Text>类别：苏通卡—储值卡</Text>
+          <Text>卡主：孙*</Text>
+          <Text>车牌：苏A888888</Text>
+          <Text>卡号：***2311</Text>
+        </Card>
+
+        <View style={{width : placeHolderW / 2}}></View>
+        <Card width={CARD_WIDTH} x={x} idx={5} color="green">
+          <Text>类别：苏通卡—储值卡</Text>
+          <Text>卡主：孙*</Text>
+          <Text>车牌：苏A888888</Text>
+          <Text>卡号：***2311</Text>
+        </Card>
+
+        <View style={{width : placeHolderW / 2}}></View>
+        <Card width={CARD_WIDTH} x={x} idx={6} color="greenyellow">
+          <Text>类别：苏通卡—储值卡</Text>
+          <Text>卡主：孙*</Text>
+          <Text>车牌：苏A888888</Text>
+          <Text>卡号：***2311</Text>
+        </Card>
         <View style={{width : placeHolderW}}></View>
+
       </Animated.View>
+
+          <Button
+              onPress={Alert.alert("1")}
+              title="解绑"
+              color="#188ae4"
+              accessibilityLabel="Learn more about this purple button"
+          />
+
+      </View>
     )
   }
 
 }
 
-const Card = ({width, children, x, idx}) => {
+const Card = ({width, children, x, idx, color}) => {
 
   
   const colors = ["blue", "red", "green", "yellow"]
@@ -202,14 +242,22 @@ const Card = ({width, children, x, idx}) => {
     outputRange : [r, r]
   })
   return (
-    <Animated.View style={{width, height : 100, borderColor : "grey", borderWidth : 1 , 
-    backgroundColor : "skyblue",
+    <Animated.View style={{width, height : 110, borderColor : "transparent", borderWidth : 1 ,
+    backgroundColor : color,
     opacity : v,
     transform : [{ scaleY : v, scaleX : v }]
     }}>
       {children}
-      
+
+      <Button
+          // onPress={Alert.alert("1")}
+          title="解绑"
+          color="#188ae4"
+          accessibilityLabel="Learn more about this purple button"
+      />
     </Animated.View>
+
+
   )
 
 }

@@ -48,13 +48,13 @@ import {Routes} from "domain/page"
 const fields = ["name", "password", "certificate", "mobile", "agree", "vcode", "imgcode", "smsId"]
 
 const validate = (assert, fields) => {
-    assert("name", ValidateMethods.required(), '请输入用户名')
-    assert("mobile", ValidateMethods.required(), '请输入手机号')
-    assert("mobile", ValidateMethods.length(11), '手机号格式不正确')
-    assert("certificate", ValidateMethods.required(), '请输入身份证')
-    assert("certificate", ValidateMethods.length(18), '身份证格式不正确')
-    assert("password", ValidateMethods.required(), '请输入密码')
-    assert("agree", ValidateMethods.required(true), '请同意用户协议')
+    // assert("name", ValidateMethods.required(), '请输入用户名')
+    // assert("mobile", ValidateMethods.required(), '请输入手机号')
+    // assert("mobile", ValidateMethods.length(11), '手机号格式不正确')
+    // assert("certificate", ValidateMethods.required(), '请输入身份证')
+    // assert("certificate", ValidateMethods.length(18), '身份证格式不正确')
+    // assert("password", ValidateMethods.required(), '请输入密码')
+    // assert("agree", ValidateMethods.required(true), '请同意用户协议')
 }
 
 
@@ -67,7 +67,6 @@ export class Register extends Component {
             busy: false
         }
     }
-
 
     async _submit(data, errors) {
 
@@ -84,6 +83,13 @@ export class Register extends Component {
             this.setState({busy:false})
             return false
         }
+        global.token=result.token
+
+        global.storage.save({
+            key: 'token',   // Note: Do not use underscore("_") in key!
+            data: result.token
+        });
+
 
 
         console.log(result)
@@ -133,45 +139,41 @@ const RegisterForm = ({form, fields, submit, busy, navigator}) => {
         console.log(this.zImgCode.state.code)
 
         const certificateNumber = certificate.value
-        if (!(certificateNumber && certificateNumber.length === 18 )) {
-            Alert.alert("错误", "请输入身份证号")
-            return false
-        }
-
+        // if (!(certificateNumber && certificateNumber.length === 18 )) {
+        //     Alert.alert("错误", "请输入身份证号")
+        //     return false
+        // }
+        //
         const mobileNumber = mobile.value
-        if (!(mobileNumber && mobileNumber.length === 11 )) {
-            Alert.alert("错误", "请输入手机号")
-            return false
-        }
-
-        if (!imgcode.value) {
-            Alert.alert("错误", "请输入图片验证码")
-            return false
-        }
-
-        if (imgcode.value.toUpperCase() != this.zImgCode.state.code.toUpperCase()) {
-            Alert.alert("错误", "请输入正确的图片验证码")
-            return false
-        }
+        // if (!(mobileNumber && mobileNumber.length === 11 )) {
+        //     Alert.alert("错误", "请输入手机号")
+        //     return false
+        // }
+        //
+        // if (!imgcode.value) {
+        //     Alert.alert("错误", "请输入图片验证码")
+        //     return false
+        // }
+        //
+        // if (imgcode.value.toUpperCase() != this.zImgCode.state.code.toUpperCase()) {
+        //     Alert.alert("错误", "请输入正确的图片验证码")
+        //     return false
+        // }
         /// TODO 发送请求
         const result = await get_user_vcode(mobileNumber)
         if(result.errCode!="0000"){
             Alert.alert("错误", result.errMsg)
-            return false
+            // return false
         }
 
         fields.smsId.value=result.smsID
 
-        // console.log("@send after")
-        // if(!assert_request(result)){
-        //   return false
-        // }
 
         return true
     }
     return (
         <View>
-            <ZInput placeholder="姓名1" keyboardType="phone-pad" {...name} />
+            <ZInput placeholder="姓名" keyboardType="phone-pad" {...name} />
             <ZInput placeholder="身份证号" keyboardType="phone-pad" {...certificate} />
             <ZInput placeholder="手机号" keyboardType="phone-pad" {...mobile} />
             <ZInput placeholder="密码"  {...password} secureTextEntry={true}/>

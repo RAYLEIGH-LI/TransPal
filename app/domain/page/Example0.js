@@ -97,23 +97,79 @@ export class Example0 extends Component {
 
       return (
       <View style={styles.container}>
-        
+
         <Text>
-          Hi !
+          getUniqueID：{DeviceInfo.getUniqueID()}
         </Text>
         <Text>
-          Welcome to React Native
+          getManufacturer：{DeviceInfo.getManufacturer()}
+        </Text>
+        <Text>
+          getBrand：{DeviceInfo.getBrand()}
+        </Text>
+        <Text>
+          getModel：{DeviceInfo.getModel()}
+        </Text>
+        <Text>
+          getDeviceId：{DeviceInfo.getDeviceId()}
+        </Text>
+        <Text>
+          getSystemName：{DeviceInfo.getSystemName()}
+        </Text>
+        <Text>
+          getSystemVersion：{DeviceInfo.getSystemVersion()}
+        </Text>
+        <Text>
+          getBundleId：{DeviceInfo.getBundleId()}
+        </Text>
+        <Text>
+          getBuildNumber：{DeviceInfo.getBuildNumber()}
+        </Text>
+        <Text>
+          getVersion：{DeviceInfo.getVersion()}
+        </Text>
+        <Text>
+          getReadableVersion：{DeviceInfo.getReadableVersion()}
+        </Text>
+        <Text>
+          getDeviceName：{DeviceInfo.getDeviceName()}
+        </Text>
+        <Text>
+          getUserAgent：{DeviceInfo.getUserAgent()}
+        </Text>
+        <Text>
+          getDeviceLocale：{DeviceInfo.getDeviceLocale()}
+        </Text>
+        <Text>
+          getDeviceCountry：{DeviceInfo.getDeviceCountry()}
+        </Text>
+        <Text>
+          getTimezone：{DeviceInfo.getTimezone()}
+        </Text>
+        <Text>
+          getInstanceID：{DeviceInfo.getInstanceID()}
+        </Text>
+        <Text>
+          isEmulator：{DeviceInfo.isEmulator()}
+        </Text>
+        <Text>
+          isTablet：{DeviceInfo.isTablet()}
+        </Text>
+        <Text>
+          isPinOrFingerprintSet：{DeviceInfo.isPinOrFingerprintSet()}
         </Text>
 
+
+
         
-        <View style={{height : 50,width : 100, flexDirection : 'row'}}>
-          <View style={{flex:1, backgroundColor : 'red'}}></View>
-          <View style={{flex:2, backgroundColor : "blue"}}></View>
-          <View style={{flex:1, backgroundColor : "green"}}></View>
-        </View>
+        {/*<View style={{height : 50,width : 100, flexDirection : 'row'}}>*/}
+          {/*<View style={{flex:1, backgroundColor : 'red'}}></View>*/}
+          {/*<View style={{flex:2, backgroundColor : "blue"}}></View>*/}
+          {/*<View style={{flex:1, backgroundColor : "green"}}></View>*/}
+        {/*</View>*/}
 
 
-        <ZButton loading={loading} onPress={this.onPress.bind(this)} >登录</ZButton>
+        {/*<ZButton loading={loading} onPress={this.onPress.bind(this)} >登录</ZButton>*/}
 
       </View>
     )

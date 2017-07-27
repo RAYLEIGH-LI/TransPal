@@ -59,6 +59,22 @@ export const get_sign_alipay = (orderId) => {
 }
 
 /**
+ * 验证token
+ */
+export const check_token = (token) => {
+
+    console.log("@check_token[验证token] ")
+
+    const param = JSON.stringify({
+        sysName: 'transpal',
+        token
+    })
+
+    return http_get('/m/token-check', {param})
+}
+
+
+/**
  * 获取验证码图片
  * @return 图片base64字符串
  */
@@ -115,8 +131,9 @@ export const register = (data) => {
         loginPwd: data.password
     })
 
+    return JSON.parse('{"errCode":"0000","errMsg":"","token":"o3061+dpIeKGWgjmy+cg95g2jbG04hmb0hzyp/anXLI="}')
 
-    return http_post("/m/user-register", param)
+    // return http_post("/m/user-register", param)
 }
 
 

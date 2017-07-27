@@ -83,6 +83,33 @@ export default {
     // { title: '休闲娱乐', icon: require('./img/Home/icon_homepage_entertainmentCategory.png') },
     // { title: 'KTV', icon: require('./img/Home/icon_homepage_KTVCategory.png') },
 
+    investInfo: {
+        "status": "success",
+        "data": [
+            {
+                "id": "1",
+                "name": "苏A8888",
+                "status": "0",
+                "yield": "1202.43",
+                "price": "1元起投",
+                "quit": "宝马",
+                "time": "2133188828377788",
+                "tag": "1"
+            },
+            {
+                "id": "6",
+                "name": "苏A77777",
+                "status": "1",
+                "yield": "776.2",
+                "price": "5000元起投",
+                "quit": "雅阁",
+                "time": "82723672882",
+                "tag": "0"
+            }
+        ]
+    },
+
+
     orderInfo: {
         'code': 0,
         'data': {
@@ -203,7 +230,6 @@ export default {
                     'address': '珠峰',
                     'image': 'http://ketang.zhufengpeixun.cn/static/nodejs.jpg',
                     'hours': 24,
-                    'price': 0.01,
                     'description': '提供一个基础课程和一个开源的项目，一边学基础一边实战项目。',
                     '__v': 0,
                     'weight': 0,
