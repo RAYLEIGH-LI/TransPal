@@ -18,3 +18,10 @@ export const COLOR_PRICE = "#ee4339"
 export const COLOR_INFO = '#3596e2'
 
 export const COLOR_LIGHT_BLUE = '#d8edfe'
+
+
+export const color={
+    theme: '#06C1AE',
+    border: '#e9e9e9',
+    background: '#f3f3f3'
+}

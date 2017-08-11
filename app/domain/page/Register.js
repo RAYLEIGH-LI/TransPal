@@ -76,13 +76,17 @@ export class Register extends Component {
         }
         this.setState({busy: true})
 
-        const result = await register(data)
+        const resultStr = await register(data)
+        // Alert.alert(resultStr)
+
+        const result=JSON.parse(resultStr)
 
         if(result.errCode!="0000"){
             Alert.alert("错误", result.errMsg)
             this.setState({busy:false})
             return false
         }
+        Alert.alert(result.token)
         global.token=result.token
 
         global.storage.save({
@@ -90,9 +94,7 @@ export class Register extends Component {
             data: result.token
         });
 
-
-
-        console.log(result)
+        // console.log(result)
         this.setState({busy: false}, (() => {
 
             this.props.navigator.pop()
@@ -160,10 +162,12 @@ const RegisterForm = ({form, fields, submit, busy, navigator}) => {
         //     return false
         // }
         /// TODO 发送请求
-        const result = await get_user_vcode(mobileNumber)
+        // Alert.alert('1')
+        const resultStr = await get_user_vcode(mobileNumber)
+        const result=JSON.parse(resultStr)
         if(result.errCode!="0000"){
             Alert.alert("错误", result.errMsg)
-            // return false
+            return false
         }
 
         fields.smsId.value=result.smsID

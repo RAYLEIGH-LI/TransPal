@@ -69,7 +69,7 @@ const http_factory = (method) => {
             const queryString = qs.stringify(params)
             url = `${url}${queryString && "?" + queryString}`
         } else {
-            requestOptions.headers = {...requestOptions.headers, 'Content-Type': 'application/json'}
+            requestOptions.headers = {...requestOptions.headers, 'Content-Type': 'application/text'}
             // requestOptions.body = JSON.stringify(params)
 
             let formData = new FormData();
@@ -94,8 +94,6 @@ const http_factory = (method) => {
 
                 fetch(url, requestOptions)
                     .then(response => {
-                        console.log('responseresponseresponseresponseresponse')
-                        console.log(response)
                         resolve(response)
                     })
                     .catch(e => {
@@ -127,23 +125,22 @@ const http_factory = (method) => {
             console.log(requestOptions)
             const text = await http_result.text()
 
-            console.log('texttexttexttexttexttexttext')
-            console.log(text)
             // Alert.alert(text)
             if(text=="TOKENERR01"||text==""){
-                Alert.alert(text)
+                // Alert.alert(text)
                 return text
             }
 
-            const json = JSON.parse(text)
+            return text
+            // const json = JSON.parse(text)
 
-            console.log("get json result with token:" + json.token)
-            console.log(json)
-            if (json.token) {
-                set_local_token(json.token)
-            }
+            // console.log("get json result with token:" + json.token)
+            // console.log(json)
+            // if (json.token) {
+            //     set_local_token(json.token)
+            // }
             // return {type : "HTTP_RESULT", url : "url",  json}
-            return json
+            // return json
         }
         catch (e) {
             store.dispatch({
@@ -156,7 +153,7 @@ const http_factory = (method) => {
             })
 
             console.error(e + ":" + url)
-            return ''
+            return text
         }
 
     }

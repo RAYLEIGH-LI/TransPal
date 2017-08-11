@@ -89,7 +89,6 @@ export const get_image = async () => {
         imageType: 'png'
     })
 
-
     return http_get('/m/vcode-query', {param})
 
     // return "data:image/png;base64," + result
@@ -100,7 +99,7 @@ export const get_image = async () => {
 /**
  * 获取用户注册码
  */
-export const get_user_vcode = async (mobile) => {
+export const get_user_vcode = (mobile) => {
 
     console.log("@get_user_vcode[获取短信验证码] with mobile " + mobile)
 
@@ -110,7 +109,8 @@ export const get_user_vcode = async (mobile) => {
         smsType: 'validate'
     })
 
-    return http_get("/m/sms-send", {param})
+    return '{"errCode":"0000","errMsg":""}'
+    // return JSON.parse(http_get("/m/sms-send", {param}))
 
 
 }
@@ -131,7 +131,7 @@ export const register = (data) => {
         loginPwd: data.password
     })
 
-    return JSON.parse('{"errCode":"0000","errMsg":"","token":"o3061+dpIeKGWgjmy+cg95g2jbG04hmb0hzyp/anXLI="}')
+    return '{"errCode":"0000","errMsg":"","token":"o3061+dpIeKGWgjmy+cg95g2jbG04hmb0hzyp/anXLI="}'
 
     // return http_post("/m/user-register", param)
 }

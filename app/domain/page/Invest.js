@@ -13,7 +13,7 @@ import {
     InteractionManager
 } from 'react-native'
 
-import api from './src/api'
+import api from '../api/api'
 
 // import {connect} from 'react-redux';
 // import {investFetch} from '../api/investAction';

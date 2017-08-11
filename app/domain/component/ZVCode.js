@@ -25,7 +25,7 @@
 
 import React, {Component} from 'react'
 
-import {TextInput, StyleSheet, View, Text, TouchableOpacity} from 'react-native'
+import {TextInput, StyleSheet, View, Text, TouchableOpacity, Alert} from 'react-native'
 
 import {flexCenter} from 'basic'
 import {COLOR_TEXT_LIGHT, COLOR_LIGHT_BLUE, COLOR_PRIMARY} from "domain/def"
@@ -47,8 +47,8 @@ export class ZVCode extends Component{
     }
 
     const pass = await this.props.send()
-    
-    if(pass) {
+
+    if(pass==true) {
       this.setState({
         tick : 60
       }, () => {

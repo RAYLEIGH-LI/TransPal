@@ -38,20 +38,19 @@ import {
     RefreshControl,
     TouchableOpacity,
     TouchableWithoutFeedback,
-    Platform
+    Platform,
+    WebView
 } from 'react-native'
 
-
 import {ListView, flexCenter} from 'basic'
-import Swiper from 'react-native-swiper';
+import Swiper from 'react-native-swiper'
 import {Routes} from "domain/page"
-
-import HomeMenuView from './src/scene/Home/HomeMenuView'
-import {CourseCardBig} from "domain/component"
+// import HomeMenuView from './src/scene/Home/HomeMenuView'
+// import HomeGridView from './src/scene/Home/HomeGridView'
+import {CourseCardBig,HomeMenuView,HomeGridView} from "domain/component"
 
 import {get_courses} from "domain/api/apis"
-import api from './src/api'
-
+import api from '../api/api'
 
 const {width, height} = Dimensions.get('window')
 
@@ -132,6 +131,10 @@ export class Home extends Component {
         return api.menuInfo
     }
 
+    loadGridInfos() {
+        return api.gridInfo.data
+    }
+
 
     _pressCourse(course) {
         return () => {
@@ -189,17 +192,21 @@ export class Home extends Component {
                                    resizeMode="contain"/>
                         </View>
                     </Swiper>
-                    <View
-                        style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
+
+                    <View style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
 
                     <HomeMenuView
                         menuInfos={this.loadMenuInfos()}
                         onMenuSelected={(index) => this.onMenuSelected(index)}
                     />
 
-                    <View
-                        style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
+                    <View style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
 
+                    <HomeGridView
+                        infos={this.loadGridInfos()}
+                        onGridSelected={(info) => this.onGridSelected(info)} />
+
+                    <View style={{height: 10, backgroundColor: "#f2f3f4", width: Dimensions.get("window").width}}></View>
 
                     <View style={{marginLeft: -10, marginTop: 10}}>
                         <Image source={require("./images/info-title.png")} style={{height: 30}} resizeMode="contain"/>
@@ -217,6 +224,14 @@ export class Home extends Component {
         }
     }
 
+    onGridSelected(info) {
+        // Alert.alert(JSON.stringify(info))
+
+        let Title=info.deputytitle
+        let route = {...Routes.WebViewExample,Title,info}
+
+        this.props.navigator.push(route)
+    }
 
     _onScrollToBottom(y) {
         this.y = y

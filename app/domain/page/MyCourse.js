@@ -39,7 +39,7 @@ import {ZButton} from 'domain/component'
 import {get_orders} from "domain/api/apis"
 import {flexCenter} from "basic"
 import {Routes} from "domain/page"
-import api from './src/api'
+import api from '../api/api'
 
 import {CourseCardSmall} from "domain/component"
 import {CourseCardBig} from "domain/component"

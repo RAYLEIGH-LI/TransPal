@@ -31,14 +31,6 @@
 
 // 路由的元数据
 export const Routes = {
-    MeiTuan: {
-        name: "MeiTuan",
-        Title: "MeiTuan",
-        // 用了get的语法避免循环引用
-        get Component() {
-            return require("./src/RootScene").RootScene
-        }
-    },
     Invest: {
         name: "Invest",
         Title: "绑卡测试",
@@ -76,6 +68,13 @@ export const Routes = {
         Title: "Example3",
         get Component() {
             return require("./Example3").Example3
+        }
+    },
+    WebViewExample: {
+        name: "WebViewExample",
+        // Title: "WebViewExample",
+        get Component() {
+            return require("./WebViewExample").WebViewExample
         }
     },
     Example4: {
@@ -196,6 +195,36 @@ export const Routes = {
 
         get Component() {
             return require("./NewVersion").NewVersion
+        }
+    },
+    /** 账户信息 **/
+    UserProfile: {
+        name: "UserProfile",
+        Inverse: false,
+        Title: "账户信息",
+
+        get Component() {
+            return require("./UserProfile").UserProfile
+        }
+    },
+    /** 设置 **/
+    Setting: {
+        name: "Setting",
+        Inverse: true,
+        Title: "设置",
+
+        get Component() {
+            return require("./Setting").Setting
+        }
+    },
+    /** 地址 **/
+    Address: {
+        name: "Address",
+        Inverse: true,
+        Title: "地址",
+
+        get Component() {
+            return require("./Address").Address
         }
     },
     /** 开户协议 **/

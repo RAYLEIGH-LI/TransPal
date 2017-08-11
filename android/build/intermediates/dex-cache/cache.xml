@@ -2,153 +2,6 @@
 <items version="2" >
 
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-splash-screen/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="b20b2b76c4634cfcc5f7741cd309845fb8848204">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-0afca3728cd6b3c10e2844c719f1499d47c79aaa.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-36dc0c97de93be7e29b3dc494ba56d05c63a54f3.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-3c810a2a81f61fbf674b85a018c382d221a92ebe.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-2eee59d9f1e2191508026fae9fe4b4e635d1f668.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-ad25adc2177830123d614cd51ea91c42bb2e7894.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-3a701cc36af4916c372c1ce0929ae33faec7a28d.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-616a767f32646cd7ce9e59a5264f0c295fb24431.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-33f68366ec400d56eab6a95753b7d1d61cb8016c.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-3129f8d40cb6d8294fa86cb163187afde39a596f.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-8f09d98e875a32ddbffd10dde8fd0b360a5add32.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-28da66a8b0675e5e4895b1130dae97c22ad4eb9c.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-f96aebcdc5a2b21cc6a4ea914334ae397f177d8a.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/libs/alipaySdk-20161222.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="341e981a9f87882cc427113db58c7a01f6b5dde4">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/alipaySdk-20161222-8e05e033171d5558b64ab77e8e06df8807029272.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-715a6f6708216de06c6264a9e3a0255e63e53ece.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-4d200b41b5f26aed4c0f64b95487ca066ded154e.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-5280a6ec6b175ff577297aa29118b1f97248aca2.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0-85355489f679bdeff43bc354bae918e41ab0dc7b.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="7057b89327260d70337f4913f933c78bb56ecd69">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-0ea2c2002c8d72af38c611ca4c59ab7c4734b09d.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-device-info/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="0ce2af11eb0fcd9b00325eb1b462df00344662e2">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-ec4cf2bbbcfdea3ec8fd0a1536ba34215385e132.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-c57330e4f8815558a1d9286aa02837c1fdd81f36.jar" />
-    </item>
-    <item
-        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
-        jumboMode="false"
-        revision="25.0.3"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-57f28e8b387e0743a4073626ed4a52fca7d1829b.jar" />
-    </item>
-    <item
         jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
         jumboMode="false"
         revision="25.0.3"
@@ -170,18 +23,130 @@
         <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-1e2d9c92764b0540c218c8b7805550b6b95d8de1.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/@remobile@react-native-toast/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-8accde226ece0bbedf06334349418805790d0889.jar" />
+        sha1="ba04b8e3225f3a1623bd84e27cc424a396e52714">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-6f26d6bec4ef8b65938daf57b5116a7317b8a08a.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-fetch-blob/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-1eb3a0b18fd21b1c51bb11f42c852acda3d67ddc.jar" />
+        sha1="f3c99d35e2a65bf63a36558daf6e931d6d178f8c">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-2403abe1a6e459a84e6fd4a84bceafc57376b753.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="8e5edad98e4113971e515a8d9fe89d6f95235fa9">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-cb54bd5e2de15ed7bc1a19d656d24865c4b29050.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-723bba96d1723223d9fe8fd07527ce2df07ddf62.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/javax.inject-1-33f68366ec400d56eab6a95753b7d1d61cb8016c.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="21160c044ba984fb2e33b833c89a496becb85cfd">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-c57330e4f8815558a1d9286aa02837c1fdd81f36.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0-57f28e8b387e0743a4073626ed4a52fca7d1829b.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0-85355489f679bdeff43bc354bae918e41ab0dc7b.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-c897436a4e44dd4a8161db30d5006f7956294866.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-ad25adc2177830123d614cd51ea91c42bb2e7894.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1-28da66a8b0675e5e4895b1130dae97c22ad4eb9c.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="3341b66c54367e777a0647e2db96c045329bfeab">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-8f09d98e875a32ddbffd10dde8fd0b360a5add32.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="d695dc4247690369d66c022c6d18190155c61fcd">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-715a6f6708216de06c6264a9e3a0255e63e53ece.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="d31aadf33187c37a7cd63dc1b769f8c6e33f78c3">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-36dc0c97de93be7e29b3dc494ba56d05c63a54f3.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-616a767f32646cd7ce9e59a5264f0c295fb24431.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-device-info/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="0ce2af11eb0fcd9b00325eb1b462df00344662e2">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-ec4cf2bbbcfdea3ec8fd0a1536ba34215385e132.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-3129f8d40cb6d8294fa86cb163187afde39a596f.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/libs/alipaySdk-20161222.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="341e981a9f87882cc427113db58c7a01f6b5dde4">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/alipaySdk-20161222-8e05e033171d5558b64ab77e8e06df8807029272.jar" />
     </item>
     <item
         jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
@@ -191,18 +156,32 @@
         <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-7a8f017a5bf6005f5fe30db0b4594f11a1856db3.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-2746ca9b4077e321cde64729da79e91657df74eb.jar" />
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-3a701cc36af4916c372c1ce0929ae33faec7a28d.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-14c0fe56ded2dd301a1c925648fb11f7517acf5f.jar" />
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0-4d200b41b5f26aed4c0f64b95487ca066ded154e.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-1eb3a0b18fd21b1c51bb11f42c852acda3d67ddc.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1-8accde226ece0bbedf06334349418805790d0889.jar" />
     </item>
     <item
         jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/0.11.0/jars/classes.jar"
@@ -219,39 +198,39 @@
         <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-b9ffaba72ebc84594e5c6f42d73f41baece86e0c.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-abab05e5b7df67004d12ab4b77932147b50964bd.jar" />
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0-2eee59d9f1e2191508026fae9fe4b4e635d1f668.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.40.0/jars/libs/infer-annotations-1.5.jar"
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-vector-icons/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5-c897436a4e44dd4a8161db30d5006f7956294866.jar" />
+        sha1="fd13d1731131f8bf75c7c9a681040d6940aa195b">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-5380df725f5e499c0c2b7dab3c18f6ef74ac6032.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-723bba96d1723223d9fe8fd07527ce2df07ddf62.jar" />
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-2746ca9b4077e321cde64729da79e91657df74eb.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/@remobile@react-native-toast/unspecified/jars/classes.jar"
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.1/jars/classes.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="ba04b8e3225f3a1623bd84e27cc424a396e52714">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-6f26d6bec4ef8b65938daf57b5116a7317b8a08a.jar" />
+        sha1="6178e31397c24ab1bfc09766832cdcf519621eb7">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-3c810a2a81f61fbf674b85a018c382d221a92ebe.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/11.0.1/jars/classes.jar"
+        jar="/Users/xiaohan/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="8e5edad98e4113971e515a8d9fe89d6f95235fa9">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-cb54bd5e2de15ed7bc1a19d656d24865c4b29050.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/library-2.4.0-5280a6ec6b175ff577297aa29118b1f97248aca2.jar" />
     </item>
     <item
         jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.11.0/jars/classes.jar"
@@ -261,11 +240,39 @@
         <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-061736cc1b356ad465970e81c2ce57ca26c4c8fe.jar" />
     </item>
     <item
-        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-fetch-blob/unspecified/jars/classes.jar"
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/11.0.1/jars/classes.jar"
         jumboMode="false"
         revision="25.0.3"
-        sha1="f3c99d35e2a65bf63a36558daf6e931d6d178f8c">
-        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-2403abe1a6e459a84e6fd4a84bceafc57376b753.jar" />
+        sha1="7057b89327260d70337f4913f933c78bb56ecd69">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-0ea2c2002c8d72af38c611ca4c59ab7c4734b09d.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-splash-screen/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="b20b2b76c4634cfcc5f7741cd309845fb8848204">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-0afca3728cd6b3c10e2844c719f1499d47c79aaa.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-14c0fe56ded2dd301a1c925648fb11f7517acf5f.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-f96aebcdc5a2b21cc6a4ea914334ae397f177d8a.jar" />
+    </item>
+    <item
+        jar="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.11.0/jars/classes.jar"
+        jumboMode="false"
+        revision="25.0.3"
+        sha1="98786c1770b531b9194fb6448b2a2692c64074b6">
+        <dex dex="/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/pre-dexed/debug/classes-abab05e5b7df67004d12ab4b77932147b50964bd.jar" />
     </item>
 
 </items>

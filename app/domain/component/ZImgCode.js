@@ -50,7 +50,8 @@ export class ZImgCode extends Component{
 
   async _load(){
 
-    const imgJson = await get_image();
+    const imgStr = await get_image();
+    const imgJson=JSON.parse(imgStr)
     const code = imgJson.code
     const img="data:image/png;base64," + imgJson.imageString;
 

@@ -2,146 +2,306 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e173421-27eb-4c26-9483-b0a9dd2b4cc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_arrow_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_heng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_heng_shi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_shop_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_shu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_status.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_status_item_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_status_jiedan.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_status_peisong.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_status_tijiao.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_status_wancheng.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/order/ic_order_status_zhifu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/api/investAction.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/Invest.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/NewVersion.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/classes-1124b1f063fedb8bd6768d7ca2ba4362db484723.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/classes-2ddba20a0f632d7cd7cd4d9451ea51f620b17e14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/classes-881c5f908b848cdab61366462db246a0083f55e3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/app/build/intermediates/pre-dexed/debug/classes-bc941b3a46c2fb8a4df5dffdf88948191132b6a6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/images/user-center.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/Utils/RNFBCookieJar.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/Utils/RNFBCookieJar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlob.xcodeproj/xcuserdata/xiaohan.xcuserdatad/xcschemes/RNFetchBlob.xcscheme" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlob.xcodeproj/xcuserdata/xiaohan.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/net.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/IMG_3814.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/ad1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/avatar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/coupon_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/coupon_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/h_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/hot_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/hot_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/hot_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/hot_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/nice_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/no_log.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/sale_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/sale_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/sale_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/sale_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/component/Button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/component/Item.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/component/NavBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/Address.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/EditAddress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/Setting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/UserCenterNew.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/UserProfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/WebViewExample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/page/images.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/util/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/domain/util/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/RootScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/common/ListRequest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/common/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/all-wcprops" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/entries" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg0.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg6.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg7.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/bg8.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/camera@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/empty_picture@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/empty_picture_small@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/head.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item0@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item0_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item1@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item1_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item2@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item2_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item3@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item3_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item5@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/item5_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/kiwi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/login_logo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/login_logo@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/logo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/nav_back@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/nav_back_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/nav_btn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/navigationbar_background@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/navigationbar_background_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/orange_btn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/photo@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/refresh_footer_arrow_day@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/refresh_footer_arrow_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/refresh_header_arrow_day@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/refresh_header_arrow_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/tabbar_background_day@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/tabbar_background_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/text_field_bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/text_field_bg@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/timeline_icon_comment@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/timeline_icon_hate@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/timeline_icon_like@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/timeline_icon_retweet@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/timeline_icon_unhate@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/timeline_icon_unlike@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/timeline_retweet_background@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/tips_failed@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/tips_loading@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/tips_success@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/tips_warning@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_favorite@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_hate.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_hate_s.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_icon_comment_highlighted_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_icon_comment_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_icon_like_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_icon_retweet_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_icon_unlike_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/prop-base/toolbar_unfavorite@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg0.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg1.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg2.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg3.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg4.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg5.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg6.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg7.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/bg8.jpg.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/camera@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/empty_picture@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/empty_picture_small@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/head.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item0@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item0_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item1@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item1_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item2@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item2_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item3@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item3_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item5@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/item5_h@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/kiwi.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/login_logo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/login_logo@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/logo.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/nav_back@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/nav_back_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/nav_btn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/navigationbar_background@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/navigationbar_background_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/orange_btn.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/photo@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/refresh_footer_arrow_day@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/refresh_footer_arrow_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/refresh_header_arrow_day@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/refresh_header_arrow_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/tabbar_background_day@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/tabbar_background_night@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/text_field_bg.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/text_field_bg@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/timeline_icon_comment@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/timeline_icon_hate@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/timeline_icon_like@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/timeline_icon_retweet@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/timeline_icon_unhate@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/timeline_icon_unlike@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/timeline_retweet_background@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/tips_failed@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/tips_loading@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/tips_success@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/tips_warning@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_favorite@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_hate.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_hate_s.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_icon_comment_highlighted_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_icon_comment_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_icon_like_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_icon_retweet_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_icon_unlike_os7@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/.svn/text-base/toolbar_unfavorite@2x.png.svn-base" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/beauty_technician_v15@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_aboutmeituan@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_balance@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_collection@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_comment@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_customerService@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_friends@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_member@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_membercard@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_membercenter@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_mineorder@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_voucher@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_mine_wallet@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_navigationItem_message_white@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_navigationItem_set_white@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_user_avatar_anonymous@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Mine/icon_userreview_defaultavatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Order/order_tab_need_pay@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Order/order_tab_need_review@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Order/order_tab_need_use@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Order/order_tab_needoffer_aftersale@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Public/cell_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Public/icon_navigationItem_share@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_discover@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_discover_selected@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_homepage@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_homepage_selected@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_merchant@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_merchant_selected@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_mine@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_mine_selected@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_order@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/tabbar/pfb_tabbar_order_selected@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/GroupPurchase/GroupPurchaseCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/GroupPurchase/GroupPurchaseScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Home/HomeScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Mine/MineScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Nearby/NearbyCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Nearby/NearbyHeaderView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Nearby/NearbyListScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Nearby/NearbyScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Order/OrderMenuItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Order/OrderScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/Button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/DetailCell.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/NavigationItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/RefreshListView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/SearchBar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/Separator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/SpacingView.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/TabBarItem.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/WebScene.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/color.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/api.js" afterPath="$PROJECT_DIR$/app/domain/api/api.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/common/screen.js" afterPath="$PROJECT_DIR$/app/domain/def/screen.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/common/system.js" afterPath="$PROJECT_DIR$/app/domain/def/system.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/bg_customReview_image_default.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/bg_customReview_image_default.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_deal_anytime_refund.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_deal_anytime_refund.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_KTVCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_KTVCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_beautyCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_beautyCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_default.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_default.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_downArrow@2x.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_downArrow@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_entertainmentCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_entertainmentCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_foodCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_foodCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_foottreatCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_foottreatCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_hotelCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_hotelCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_lifeServiceCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_lifeServiceCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_map.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_map.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_map_old.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_map_old.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_map_selected.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_map_selected.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_map_selected_old.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_map_selected_old.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_movieCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_movieCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_search.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_shoppingCategory.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_shoppingCategory.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_homepage_upArrow@2x.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_homepage_upArrow@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/icon_navigationItem_message_white@2x.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/icon_navigationItem_message_white@2x.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Home/search_icon.png" afterPath="$PROJECT_DIR$/app/domain/page/images/Home/search_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/img/Public/icon_food_merchant_address@2x.png" afterPath="$PROJECT_DIR$/app/domain/page/images/star-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Home/HomeGridItem.js" afterPath="$PROJECT_DIR$/app/domain/component/HomeGridItem.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Home/HomeGridView.js" afterPath="$PROJECT_DIR$/app/domain/component/HomeGridView.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Home/HomeMenuItem.js" afterPath="$PROJECT_DIR$/app/domain/component/HomeMenuItem.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/scene/Home/HomeMenuView.js" afterPath="$PROJECT_DIR$/app/domain/component/HomeMenuView.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/PageControl.js" afterPath="$PROJECT_DIR$/app/domain/def/PageControl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/domain/page/src/widget/Text.js" afterPath="$PROJECT_DIR$/app/domain/def/Text.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/android/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainActivity$1.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainActivity.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainApplication$1.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainApplication$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainApplication.class" afterPath="$PROJECT_DIR$/android/app/build/intermediates/classes/debug/com/cmb/transpal/MainApplication.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/android/app/build/intermediates/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/android/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/my-release-key.keystore" afterPath="$PROJECT_DIR$/android/app/my-release-key.keystore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTActionSheet.build/Debug-iphonesimulator/RCTActionSheet.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTAnimation.build/Debug-iphonesimulator/RCTAnimation.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTGeolocation.build/Debug-iphonesimulator/RCTGeolocation.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTImage.build/Debug-iphonesimulator/RCTImage.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTLinking.build/Debug-iphonesimulator/RCTLinking.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTNetwork.build/Debug-iphonesimulator/RCTNetwork.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTSettings.build/Debug-iphonesimulator/RCTSettings.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTText.build/Debug-iphonesimulator/RCTText.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTToast.build/Debug-iphonesimulator/RCTToast.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTToast.build/Debug-iphonesimulator/RCTToast.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTVibration.build/Debug-iphonesimulator/RCTVibration.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RCTWebSocket.build/Debug-iphonesimulator/RCTWebSocket.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNDeviceInfo.build/Debug-iphonesimulator/RNDeviceInfo.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNDeviceInfo.build/Debug-iphonesimulator/RNDeviceInfo.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNFetchBlob.build/Debug-iphonesimulator/RNFetchBlob.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/RNFetchBlob.build/Debug-iphonesimulator/RNFetchBlob.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/React.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/cxxreact.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/jschelpers.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/jschelpers.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/React.build/Debug-iphonesimulator/yoga.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/SplashScreen.build/Debug-iphonesimulator/SplashScreen.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/SplashScreen.build/Debug-iphonesimulator/SplashScreen.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/transpal.build/Debug-iphonesimulator/transpal.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/transpal.build/Debug-iphonesimulator/transpal.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/transpal.build/Debug-iphonesimulator/transpalTests.build/Objects-normal/x86_64/transpalTests_dependency_info.dat" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/transpal.build/Debug-iphonesimulator/transpalTests.build/Objects-normal/x86_64/transpalTests_dependency_info.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Intermediates/transpal.build/Debug-iphonesimulator/transpalTests.build/dgph" afterPath="$PROJECT_DIR$/ios/build/Build/Intermediates/transpal.build/Debug-iphonesimulator/transpalTests.build/dgph" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/transpal.app/Assets.car" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/transpal.app/Assets.car" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/transpal.app/transpal" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/transpal.app/transpal" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/bundles/release/classes.jar" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/bundles/release/classes.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$1.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$10.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$11.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$2.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$3.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$4.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$5.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$6.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$7.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$8.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$9.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS$1.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS$2.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS$3.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobFS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$1.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$2.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$3.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$4.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$RequestType.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$RequestType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$ResponseFormat.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$ResponseFormat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$ResponseType.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq$ResponseType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobReq.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobUtils$1.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobUtils$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobUtils$2.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobUtils$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobUtils.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/RNFetchBlobUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/Response/RNFetchBlobFileResp$ProgressReportingSource.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/Response/RNFetchBlobFileResp$ProgressReportingSource.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/Utils/PathResolver.class" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/intermediates/classes/release/com/RNFetchBlob/Utils/PathResolver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/outputs/aar/react-native-fetch-blob-release.aar" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build/outputs/aar/react-native-fetch-blob-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build.gradle" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/android/app/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/android/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainActivity.java" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainApplication.java" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/android/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android/settings.gradle" afterPath="$PROJECT_DIR$/android/settings.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/api/apis.js" afterPath="$PROJECT_DIR$/app/domain/api/apis.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/api/http.js" afterPath="$PROJECT_DIR$/app/domain/api/http.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/def/conf.js" afterPath="$PROJECT_DIR$/app/domain/def/conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/About.js" afterPath="$PROJECT_DIR$/app/domain/page/About.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/Example0.js" afterPath="$PROJECT_DIR$/app/domain/page/Example0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/Example4.js" afterPath="$PROJECT_DIR$/app/domain/page/Example4.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/component/ZImgCode.js" afterPath="$PROJECT_DIR$/app/domain/component/ZImgCode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/component/ZVCode.js" afterPath="$PROJECT_DIR$/app/domain/component/ZVCode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/component/index.js" afterPath="$PROJECT_DIR$/app/domain/component/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/def/color.js" afterPath="$PROJECT_DIR$/app/domain/def/color.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/Example3.js" afterPath="$PROJECT_DIR$/app/domain/page/Example3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/Home.js" afterPath="$PROJECT_DIR$/app/domain/page/Home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/Invest.js" afterPath="$PROJECT_DIR$/app/domain/page/Invest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/MyCourse.js" afterPath="$PROJECT_DIR$/app/domain/page/MyCourse.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/Register.js" afterPath="$PROJECT_DIR$/app/domain/page/Register.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/Tabs.js" afterPath="$PROJECT_DIR$/app/domain/page/Tabs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/UserCenter.js" afterPath="$PROJECT_DIR$/app/domain/page/UserCenter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/index.js" afterPath="$PROJECT_DIR$/app/domain/page/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/domain/page/src/api.js" afterPath="$PROJECT_DIR$/app/domain/page/src/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/entry.js" afterPath="$PROJECT_DIR$/app/entry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/transpal.app/_CodeSignature/CodeResources" afterPath="$PROJECT_DIR$/ios/build/Build/Products/Debug-iphonesimulator/transpal.app/_CodeSignature/CodeResources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/build/info.plist" afterPath="$PROJECT_DIR$/ios/build/info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/.github/ISSUE_TEMPLATE" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/.github/ISSUE_TEMPLATE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/.github/PULL_REQUEST_TEMPLATE" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/.github/PULL_REQUEST_TEMPLATE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/CONTRIBUTORS.md" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/CONTRIBUTORS.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/README.md" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android.js" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build.gradle" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlob.java" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlobFS.java" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlobFS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlobReq.java" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlobReq.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlobUtils.java" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/RNFetchBlobUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/Response/RNFetchBlobFileResp.java" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/Response/RNFetchBlobFileResp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/Utils/PathResolver.java" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/android/src/main/java/com/RNFetchBlob/Utils/PathResolver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/fs.js" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/fs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/index.js" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlob/RNFetchBlob.m" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlob/RNFetchBlob.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlobNetwork.h" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlobNetwork.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlobNetwork.m" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/ios/RNFetchBlobNetwork.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/package.json" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/polyfill/Fetch.js" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/polyfill/Fetch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/polyfill/FileReader.js" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/polyfill/FileReader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/polyfill/XMLHttpRequest.js" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/polyfill/XMLHttpRequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/react-native-fetch-blob.podspec" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/react-native-fetch-blob.podspec" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/utils/uuid.js" afterPath="$PROJECT_DIR$/node_modules/react-native-fetch-blob/utils/uuid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/transpal.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/ios/transpal.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ios/transpal/Info.plist" afterPath="$PROJECT_DIR$/ios/transpal/Info.plist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
@@ -5526,72 +5686,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="entry.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/entry.js">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/domain/page/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1045">
-              <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="41" />
+            <state relative-caret-position="510">
+              <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
               <folding>
-                <element signature="e#1738#1777#0" expanded="true" />
+                <element signature="e#1183#1221#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Register.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/domain/page/Register.js">
+      <file leaf-file-name="api.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/domain/api/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="28" />
-              <folding>
-                <element signature="e#1185#1223#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="128" column="21" lean-forward="true" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
-              <folding>
-                <element signature="e#1182#1220#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/domain/def/conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="247">
+              <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apis.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/domain/api/apis.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1162">
-              <caret line="121" column="21" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="21" />
-              <folding>
-                <element signature="e#1186#1259#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="http.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/domain/api/http.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-              <folding>
-                <element signature="e#1185#1219#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -5600,42 +5712,46 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cloneWithRows</find>
-      <find>Datasource</find>
-      <find>listView</find>
-      <find>props</find>
-      <find>row</find>
-      <find>flexCenter</find>
-      <find>require</find>
-      <find>_submit</find>
-      <find>Routes</find>
-      <find>tabs</find>
-      <find>新手团</find>
-      <find>global.get</find>
-      <find>global..</find>
-      <find>global.store</find>
-      <find>w</find>
-      <find>wang</find>
-      <find>wang'l</find>
-      <find>wang'luo</find>
-      <find>网络</find>
-      <find>network.error</find>
-      <find>network.erro</find>
-      <find>network.err</find>
-      <find>network.er</find>
-      <find>network.e</find>
-      <find>network.</find>
-      <find>network</find>
-      <find>NetworkError</find>
-      <find>register</find>
-      <find>await</find>
-      <find>resolve</find>
+      <find>view</find>
+      <find>viewPropType</find>
+      <find>viewPropTyp</find>
+      <find>viewPropTy</find>
+      <find>viewPropT</find>
+      <find>viewProp</find>
+      <find>messagingtest.html</find>
+      <find>hellow</find>
+      <find>COLOR_PRIMARY</find>
+      <find>color.</find>
+      <find>color</find>
+      <find>UserProfile</find>
+      <find>Address</find>
+      <find>LocalImg</find>
+      <find>apply</find>
+      <find>project.ext.</find>
+      <find>26.0.1</find>
+      <find>sliderItemStyle</find>
+      <find>height</find>
+      <find>react-native-fetch-blob</find>
+      <find>Icon</find>
+      <find>RNFetchBlob</find>
+      <find>TouchableOpacity</find>
+      <find>onPress=</find>
+      <find>Animated</find>
+      <find>icon</find>
+      <find>Font</find>
+      <find>goPage</find>
+      <find>root</find>
+      <find>src/img</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>Invest</replace>
       <replace>global.</replace>
+      <replace>images</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/domain/component</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -5643,13 +5759,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/domain/page/AccountAgreement.js" />
-        <option value="$PROJECT_DIR$/app/domain/component/ZImgCode.js" />
-        <option value="$PROJECT_DIR$/app/domain/page/MyCourse.js" />
-        <option value="$PROJECT_DIR$/android/app/src/main/java/com/zhufeng/ketang/MainApplication.java" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/android/app/src/main/java/com/zhufeng/ketang/MainActivity.java" />
-        <option value="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainApplication.java" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/PayModule.java" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/PayPackage.java" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/PayResult.java" />
@@ -5660,24 +5769,47 @@
         <option value="$PROJECT_DIR$/app/domain/page/BindCard.js" />
         <option value="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/domain/page/About.js" />
-        <option value="$PROJECT_DIR$/android/settings.gradle" />
-        <option value="$PROJECT_DIR$/android/app/build.gradle" />
         <option value="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainActivity.java" />
         <option value="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/domain/page/NewVersion.js" />
-        <option value="$PROJECT_DIR$/app/domain/page/src/api.js" />
         <option value="$PROJECT_DIR$/app/domain/page/Invest.js" />
         <option value="$PROJECT_DIR$/app/domain/page/Example0.js" />
-        <option value="$PROJECT_DIR$/app/domain/page/Tabs.js" />
-        <option value="$PROJECT_DIR$/app/domain/page/UserCenter.js" />
-        <option value="$PROJECT_DIR$/app/domain/page/index.js" />
         <option value="$PROJECT_DIR$/app/entry.js" />
         <option value="$PROJECT_DIR$/app/domain/def/conf.js" />
-        <option value="$PROJECT_DIR$/app/domain/page/Register.js" />
-        <option value="$PROJECT_DIR$/app/domain/api/apis.js" />
-        <option value="$PROJECT_DIR$/app/domain/page/Home.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/ZImgCode.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/ZVCode.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/UserCenter.js" />
         <option value="$PROJECT_DIR$/app/domain/api/http.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/WebViewExample" />
+        <option value="$PROJECT_DIR$/app/domain/page/src/scene/Home/HomeGridView.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/WebViewExample.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/src/api.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/Register.js" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/HomeMenuItem.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/index.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/Home.js" />
+        <option value="$PROJECT_DIR$/app/domain/def/color.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/HomeMenuView.js" />
+        <option value="$PROJECT_DIR$/app/domain/def/Text.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/HomeGridView.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/HomeGridItem.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/Tabs.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/images.js" />
+        <option value="$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainApplication.java" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/react-native-vector-icons/android/build.gradle" />
+        <option value="$PROJECT_DIR$/android/settings.gradle" />
+        <option value="$PROJECT_DIR$/app/domain/page/Example3.js" />
+        <option value="$PROJECT_DIR$/android/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/domain/api/apis.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/Setting.js" />
+        <option value="$PROJECT_DIR$/app/domain/component/NavBar.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/UserProfile.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/Address.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/UserCenterNew.js" />
+        <option value="$PROJECT_DIR$/app/domain/page/index.js" />
+        <option value="$PROJECT_DIR$/app/domain/api/api.js" />
       </list>
     </option>
   </component>
@@ -5699,9 +5831,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
+    <option name="x" value="56" />
     <option name="y" value="23" />
-    <option name="width" value="1619" />
+    <option name="width" value="1624" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -5722,6 +5854,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -5759,11 +5892,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -5777,87 +5906,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransPal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransPal" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransPal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransPal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="def" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransPal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TransPal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5872,8 +5930,15 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/domain/page" />
-      <recent name="$PROJECT_DIR$/app/domain/api" />
+      <recent name="$PROJECT_DIR$/app/domain/component" />
       <recent name="$PROJECT_DIR$/app/domain/page/images" />
+      <recent name="$PROJECT_DIR$/app/domain" />
+      <recent name="$PROJECT_DIR$/app/domain/def" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/domain/page/images" />
+      <recent name="$PROJECT_DIR$/app/domain/api" />
+      <recent name="$PROJECT_DIR$/app/domain/page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -6018,12 +6083,18 @@
       <workItem from="1500965555748" duration="7683000" />
       <workItem from="1501053115709" duration="1883000" />
       <workItem from="1501057208798" duration="267000" />
-      <workItem from="1501140324142" duration="2723000" />
+      <workItem from="1501140324142" duration="9938000" />
+      <workItem from="1501211330992" duration="1353000" />
+      <workItem from="1502094323168" duration="4028000" />
+      <workItem from="1502154519318" duration="6751000" />
+      <workItem from="1502239497685" duration="16265000" />
+      <workItem from="1502353527191" duration="4628000" />
+      <workItem from="1502416855655" duration="813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97094000" />
+    <option name="totallyTimeSpent" value="138147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -6035,16 +6106,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="23" width="1619" height="1027" extended-state="0" />
-    <editor active="true" />
+    <frame x="56" y="23" width="1624" height="1027" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18135701" sideWeight="0.49441788" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2085967" sideWeight="0.48983958" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17463352" sideWeight="0.50558215" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20355104" sideWeight="0.51016045" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16169943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13653603" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17463352" sideWeight="0.50558215" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -6057,6 +6127,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17463352" sideWeight="0.50558215" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18135701" sideWeight="0.49441788" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1769182" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17463352" sideWeight="0.50558215" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -6066,380 +6156,392 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/basic/index.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/def/global.function.def.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/def/screen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/basic/helpers.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/page/src/widget/Text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/CourseCardBig.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/basic/FormScrollView.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/component/CourseCardSmall.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/domain/component/NetworkError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/src/scene/Home/HomeMenuView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/def/color1.js" />
+    <entry file="file://$PROJECT_DIR$/app/domain/page/src/widget/color.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/def/color.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/def/Text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/HomeGridView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/HomeGridItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/src/RootScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/HomeMenuView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="83" column="19" lean-forward="false" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/MyCourse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/HomeMenuItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/WebViewExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/images.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/arrow_down.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/AccountAgreement.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="20" column="40" lean-forward="false" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/arrow_up.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Example1.js">
+    <entry file="file://$PROJECT_DIR$/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="31" />
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Example2.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-vector-icons/android/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
+        <state relative-caret-position="544">
+          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="38" column="36" lean-forward="false" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-vector-icons/Ionicons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-vector-icons/fonts.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/ZImgCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="36" lean-forward="true" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/api/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domain/page/Example3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/ExampleFlexbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/ExampleListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="97" column="39" lean-forward="false" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/ExamplePlayer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/FormExample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="104" column="45" lean-forward="false" selection-start-line="104" selection-start-column="38" selection-end-line="104" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/MyCourse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="117" column="32" lean-forward="false" selection-start-line="117" selection-start-column="25" selection-end-line="117" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/NoCourse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Pay.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/PaySuccess.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/ResetPassword.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/java/com/cmb/transpal/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/component/CourseCardBig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="44" column="61" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Course.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1609">
-          <caret line="154" column="38" lean-forward="false" selection-start-line="154" selection-start-column="31" selection-end-line="154" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/src/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="25" column="38" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Invest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2669">
-          <caret line="171" column="32" lean-forward="false" selection-start-line="171" selection-start-column="32" selection-end-line="171" selection-end-column="32" />
+        <state relative-caret-position="85">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domain/page/Example4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="200" column="15" lean-forward="false" selection-start-line="200" selection-start-column="15" selection-end-line="200" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
-          <caret line="140" column="52" lean-forward="false" selection-start-line="140" selection-start-column="52" selection-end-line="140" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.android.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/NewVersion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="92" column="14" lean-forward="false" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/qs/lib/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Example0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="92" column="0" lean-forward="true" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/redux/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/store/storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1006">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domain/page/UserCenter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="135" column="76" lean-forward="false" selection-start-line="135" selection-start-column="76" selection-end-line="135" selection-end-column="76" />
+        <state relative-caret-position="119">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <element signature="e#1184#1222#0" expanded="false" />
+            <element signature="e#1459#1493#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Login.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/page/EditAddress.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        <state relative-caret-position="306">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/index.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/page/Invest.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1972">
-          <caret line="116" column="9" lean-forward="false" selection-start-line="116" selection-start-column="9" selection-end-line="116" selection-end-column="9" />
+        <state relative-caret-position="3213">
+          <caret line="203" column="31" lean-forward="false" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#53#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/component/NetworkError.js">
+    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="34" column="25" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="25" />
+        <state relative-caret-position="253">
+          <caret line="106" column="4" lean-forward="true" selection-start-line="106" selection-start-column="4" selection-end-line="113" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domain/def/conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/entry.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/page/Setting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1045">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="41" />
+        <state relative-caret-position="697">
+          <caret line="41" column="49" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/UserProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/util/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/util/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/component/Item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="8" />
           <folding>
-            <element signature="e#1738#1777#0" expanded="true" />
+            <element signature="e#92#143#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Home.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/page/Tabs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="144" column="20" lean-forward="true" selection-start-line="143" selection-start-column="13" selection-end-line="144" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding>
+            <element signature="e#1182#1220#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/page/Register.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/page/Address.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="28" />
-          <folding>
-            <element signature="e#1185#1223#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="833">
+          <caret line="60" column="2" lean-forward="false" selection-start-line="60" selection-start-column="2" selection-end-line="62" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/domain/api/apis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1162">
-          <caret line="121" column="21" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="21" />
+        <state relative-caret-position="587">
+          <caret line="91" column="35" lean-forward="false" selection-start-line="91" selection-start-column="10" selection-end-line="91" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/UserCenterNew.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="163" column="55" lean-forward="true" selection-start-line="163" selection-start-column="55" selection-end-line="163" selection-end-column="55" />
           <folding>
-            <element signature="e#1186#1259#0" expanded="true" />
+            <element signature="e#1184#1224#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/component/NavBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="128" column="21" lean-forward="true" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
+        <state relative-caret-position="323">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/domain/page/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="52" column="26" lean-forward="false" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
           <folding>
-            <element signature="e#1182#1220#0" expanded="true" />
+            <element signature="e#1183#1221#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/domain/api/http.js">
+    <entry file="file://$PROJECT_DIR$/app/domain/api/api.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="134" column="27" lean-forward="true" selection-start-line="134" selection-start-column="27" selection-end-line="134" selection-end-column="27" />
-          <folding>
-            <element signature="e#1185#1219#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="94" column="6" lean-forward="false" selection-start-line="94" selection-start-column="6" selection-end-line="94" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -35,4 +35,9 @@ export * from "./ZSwitch"
 export * from "./ZVCode"
 export * from "./ZImgCode"
 
+export * from "./HomeMenuView"
+export * from "./HomeMenuItem"
+export * from "./HomeGridView"
+export * from "./HomeGridItem"
+
 

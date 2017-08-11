@@ -39,7 +39,6 @@ import {Button, flexCenter} from "basic"
 import {ZNavbar} from "domain/component"
 
 import {COLOR_NAV_DARK, COLOR_TITLE} from "domain/def"
-
 import {check_token} from "domain/api/apis"
 import {Routes} from "domain/page"
 
@@ -90,23 +89,28 @@ class _App extends Component {
             }
 
         }).bind(this));
+        
 
-        Alert.alert(
-            '发现新版本',
-            '是否现在升级？',
-            [
-                {text: '不再提醒', onPress: () => console.log('Ask me later pressed')},
-                {text: '取消', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
-                {text: '立即升级', onPress: () => this.refs.navigator.push({...Routes.NewVersion})},
-            ],
-            { cancelable: false }
-        )
+        // Alert.alert(
+        //     '发现新版本',
+        //     '是否现在升级？',
+        //     [
+        //         {text: '不再提醒', onPress: () => console.log('Ask me later pressed')},
+        //         {text: '取消', onPress: () => console.log('Cancel Pressed'), style: 'cancel'},
+        //         {text: '立即升级', onPress: () => this.refs.navigator.push({...Routes.NewVersion})},
+        //     ],
+        //     { cancelable: false }
+        // )
 
 
         /**
          * 取本地token，并判断是否过期
          */
         // 读取
+
+        console.log('2222222222222222222222')
+        console.log(global.storage)
+
         global.storage.load({
             key: 'token',
 
@@ -117,27 +121,28 @@ class _App extends Component {
             // 在调用sync方法的同时先返回已经过期的数据。
             // 设置为false的话，则等待sync方法提供的最新数据(当然会需要更多时间)。
             syncInBackground: true,
-        }).then(ret => {
+        }).then(async ret => {
             // 如果找到数据，则在then方法中返回
             // 注意：这是异步返回的结果（不了解异步请自行搜索学习）
             // 你只能在then这个方法内继续处理ret数据
             // 而不能在then以外处理
             // 也没有办法“变成”同步返回
             // 你也可以使用“看似”同步的async/await语法
+
+            Alert.alert(ret)
             console.log("token="+ret);
             global.token=ret
             //验证token
-            const result = check_token(ret)
+            let promise = await check_token(token)
+            let result =  promise
 
             console.log('resultresultresultresultresultresultresultresult')
             console.log(result)
-            if(result==''){
+            // console.log(result._81)
+            if(result==''||result=="TOKENERR01"){
+                alert("身份信息过期，需重新登录")
                 this.refs.navigator.push({...Routes.Login})
             }
-
-            // Alert.alert(result)
-
-
 
         }).catch(err => {
             //如果没有找到数据且没有sync方法，
@@ -151,6 +156,7 @@ class _App extends Component {
                     // TODO
                     break;
             }
+            alert("初次使用，请先登录")
             this.refs.navigator.push({...Routes.Login})
         })
 
