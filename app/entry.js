@@ -96,7 +96,6 @@ export class Entry extends Component {
         })
         global.storage = storage;
 
-
         /**
          * 初始化Redux Store
          */
@@ -170,7 +169,6 @@ export class Entry extends Component {
             isPinOrFingerprintSet: global.isPinOrFingerprintSet
         })
 
-
     }
 
 
@@ -181,7 +179,7 @@ export class Entry extends Component {
         }
 
         return <Provider store={store}>
-            <App />
+            <App/>
         </Provider>
 
     }

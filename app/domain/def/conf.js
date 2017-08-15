@@ -25,7 +25,15 @@
 
 // export const SERVICE_BASE = "https://ketang.zhufengpeixun.cn"
 // export const SERVICE_BASE = "http://localhost:8080"
-export const SERVICE_BASE = "http://10.0.2.2:8080"
-// export const SERVICE_BASE = "http://192.168.56.1:8080"
+
+// android studio
+// export const SERVICE_BASE = "http://10.0.2.2:8080"
+
+// genymotion
+export const SERVICE_BASE = "http://192.168.56.1:8080"
+
+// qing cloud
 // export const SERVICE_BASE = "http://139.198.190.160:8080"
+
+
 // export const SERVICE_BASE = "http://192.168.123.57:8080"

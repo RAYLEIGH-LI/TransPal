@@ -197,6 +197,16 @@ export const Routes = {
             return require("./NewVersion").NewVersion
         }
     },
+    /** 用户中心（老版测试） **/
+    UserCenter: {
+        name: "UserCenter",
+        Inverse: true,
+        Title: "测试",
+
+        get Component() {
+            return require("./UserCenter").UserCenter
+        }
+    },
     /** 账户信息 **/
     UserProfile: {
         name: "UserProfile",
@@ -218,13 +228,23 @@ export const Routes = {
         }
     },
     /** 地址 **/
-    Address: {
-        name: "Address",
+    MyCard: {
+        name: "MyCard",
         Inverse: true,
-        Title: "地址",
+        Title: "我的卡片",
 
         get Component() {
-            return require("./Address").Address
+            return require("./MyCard").MyCard
+        }
+    },
+    /** 修改地址 **/
+    EditAddress: {
+        name: "EditAddress",
+        Inverse: true,
+        Title: "修改地址",
+
+        get Component() {
+            return require("./EditAddress").EditAddress
         }
     },
     /** 开户协议 **/

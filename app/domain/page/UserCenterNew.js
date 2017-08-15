@@ -46,7 +46,7 @@ import Item from '../component/Item'
 import NavBar from '../component/NavBar'
 import Setting from './Setting'
 import UserProfile from './UserProfile'
-import Address from './Address'
+import Address from './MyCard'
 import px2dp from '../util'
 
 import Icon from 'react-native-vector-icons/Ionicons'
@@ -59,25 +59,24 @@ export class UserCenterNew extends Component {
         this.state = {
             isRefreshing: false
         }
-        this.config = [
-
-            {icon:"ios-pin", name:"收货地址", onPress:this.goPage.bind(this,"address")},
-            {icon:"ios-heart", name:"我的收藏", color:"#fc7b53"},
-            {icon:"md-images", name:"美食相册"},
-            {icon:"logo-usd", name:"推荐有奖", subName:"5元现金", color:"#fc7b53"},
-            {icon:"ios-cart", name:"积分商城", subName:"0元好物在这里", color:"#94d94a"},
-            {icon:"ios-medal", name:"饿了吗会员卡", subName:"未开通", color:"#ffc636"},
-            {icon:"md-flower", name:"服务中心"},
-            {icon:"ios-outlet", name:"欢迎评分"},
-            {icon:"md-contacts", name:"加盟合作"},
-        ]
     }
+
+    componentWillMount() {
+
+
+    }
+
+
 
 
     goPage(key, data = {}){
 
         let pages = {
-            "address": Routes.Address
+            "mycard": Routes.MyCard,
+            "login": Routes.Login,
+            "new-version":Routes.NewVersion,
+            "about":Routes.About,
+            "test":Routes.UserCenter
         }
         if(pages[key]){
             this.props.navigator.push({...pages[key]})
@@ -100,9 +99,9 @@ export class UserCenterNew extends Component {
     }
     _renderListItem(){
         return this.config.map((item, i) => {
-            if(i%3==0){
-                item.first = true
-            }
+            // if(i%3==0){
+            //     item.first = true
+            // }
             return (<Item key={i} {...item}/>)
         })
     }
@@ -111,6 +110,27 @@ export class UserCenterNew extends Component {
     }
 
     render(){
+
+        if(global.logged){
+            this.config = [
+                // {first:true, font:"Entypo", icon:"login", name:"登录/注册", onPress:this.goPage.bind(this,"login")},
+                {first:true, font:"Entypo",icon:"newsletter", name:"我的卡片", onPress:this.goPage.bind(this,"mycard"), color:"#f90"},
+                {first:true, font:"Entypo", icon:"download", name:"检查更新", subName:"发现新版本", color:"#94d94a",onPress:this.goPage.bind(this,"new-version")},
+                {font:"Entypo",icon:"info", name:"关于", onPress:this.goPage.bind(this,"about")},
+
+                {first:true, font:"Entypo",icon:"bug", name:"测试", onPress:this.goPage.bind(this,"test")},
+            ]
+        }else{
+            this.config = [
+                {first:true, font:"Entypo", icon:"login", name:"登录/注册", onPress:this.goPage.bind(this,"login")},
+                // {first:true, font:"Entypo",icon:"newsletter", name:"我的卡片", onPress:this.goPage.bind(this,"mycard"), color:"#f90"},
+                {first:true, font:"Entypo", icon:"download", name:"检查更新", subName:"发现新版本", color:"#94d94a",onPress:this.goPage.bind(this,"new-version")},
+                {font:"Entypo",icon:"info", name:"关于", onPress:this.goPage.bind(this,"about")},
+
+                {first:true, font:"Entypo",icon:"bug", name:"测试", onPress:this.goPage.bind(this,"test")},
+            ]
+        }
+
         return (
             <View style={{flex: 1, backgroundColor: "#f3f3f3",height:height}}>
                 {/*<NavBar*/}

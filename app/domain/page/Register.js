@@ -68,6 +68,14 @@ export class Register extends Component {
         }
     }
 
+
+
+
+
+
+
+
+
     async _submit(data, errors) {
 
         if (errors.length > 0) {
@@ -88,6 +96,7 @@ export class Register extends Component {
         }
         Alert.alert(result.token)
         global.token=result.token
+        global.logged="true"
 
         global.storage.save({
             key: 'token',   // Note: Do not use underscore("_") in key!

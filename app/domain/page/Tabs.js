@@ -54,12 +54,6 @@ export class Tabs extends Component {
                     name="usercenter"
                     title="个人中心" activeIcon={require("./images/user-center-selected.png")}
                     icon={require("./images/user-center-gray.png")}>
-                    <UserCenter navigator={this.props.navigator} route={this.props.route}/>
-                </TabbarItem>
-                <TabbarItem
-                    name="usercenter_new"
-                    title="新个人中心" activeIcon={require("./images/user-center-selected.png")}
-                    icon={require("./images/user-center-gray.png")}>
                     <UserCenterNew navigator={this.props.navigator} route={this.props.route}/>
                 </TabbarItem>
             </Tabbar>

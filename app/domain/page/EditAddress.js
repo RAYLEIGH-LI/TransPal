@@ -18,7 +18,7 @@ import NavBar from '../component/NavBar'
 import Button from '../component/Button'
 import Icon from 'react-native-vector-icons/Ionicons'
 //FontAwesome
-export default class EditAddress extends Component {
+export class EditAddress extends Component {
   constructor(props){
       super(props)
       this.state = {
@@ -48,11 +48,11 @@ export default class EditAddress extends Component {
   render(){
     return (
       <View style={{flex: 1, backgroundColor: "#f3f3f3"}}>
-        <NavBar
-          title={this.props.title}
-          leftIcon="ios-arrow-back"
-          leftPress={this.back.bind(this)}
-        />
+        {/*<NavBar*/}
+          {/*title={this.props.title}*/}
+          {/*leftIcon="ios-arrow-back"*/}
+          {/*leftPress={this.back.bind(this)}*/}
+        {/*/>*/}
         <ScrollView>
           <View style={{marginTop: 10,backgroundColor:"#fff",paddingLeft: 16}}>
             <View style={styles.item}>
