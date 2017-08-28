@@ -6,7 +6,7 @@ import {
     Dimensions,
     Alert
 } from 'react-native';
-
+import NavBar from '../component/NavBar'
 const {width, height} = Dimensions.get('window');
 
 // const url = "http://www.58.com";
@@ -29,6 +29,11 @@ export class WebViewExample extends Component {
 
         return (
             <View style={styles.container}>
+                <NavBar
+                    title=""
+                    leftIcon="ios-arrow-back"
+                    leftPress={()=>{this.props.navigator.pop()}}
+                />
                 <WebView
                     style={{width:width,height:height-20,backgroundColor:'gray'}}
                     source={{uri:url,method: 'GET'}}
@@ -45,6 +50,6 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: '#f2f2f2',
-        paddingTop:20,
+        paddingTop:0,
     },
 });

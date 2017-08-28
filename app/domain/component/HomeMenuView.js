@@ -36,7 +36,7 @@ export class HomeMenuView extends Component {
                     icon={menuInfo.icon}
                     onPress={() => {
                         if (this.props.onMenuSelected) {
-                            this.props.onMenuSelected(i)
+                            this.props.onMenuSelected(menuInfo.title)
                         }
                         // alert(1);
                     }} />
@@ -61,10 +61,10 @@ export class HomeMenuView extends Component {
         return (
             <View style={styles.container}>
                 <ScrollView contentContainerStyle={styles.contentContainer}
-                    horizontal={true}
-                    showsHorizontalScrollIndicator={false}
-                    pagingEnabled={true}
-                    onScroll={(e) => this.onScroll(e)}
+                            horizontal={true}
+                            showsHorizontalScrollIndicator={false}
+                            pagingEnabled={true}
+                            onScroll={(e) => this.onScroll(e)}
                 >
                     <View style={styles.menuContainer}>
                         {menuViews}

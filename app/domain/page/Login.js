@@ -42,7 +42,7 @@ import {
 
 import {FormScrollView, FormConnector, ValidateMethods, flexCenter} from 'basic'
 import {ZButton, ZInput, ZSwitch, ZVCode, ZImgCode} from "domain/component"
-
+import NavBar from '../component/NavBar'
 import {get_user_vcode, login} from "domain/api/apis"
 
 import {COLOR_PRIMARY} from 'domain/def'
@@ -99,7 +99,11 @@ export class Login extends Component {
     const {busy} = this.state
     return (
       <FormScrollView>
-
+        <NavBar
+            title="用户登录"
+            leftIcon="ios-arrow-back"
+            leftPress={()=>{this.props.navigator.pop()}}
+        />
         <View style={{...flexCenter, height : 120}} >
           <Image source={require("./images/login.png")} style={{width : 60, height : 60}} />
         </View>

@@ -125,11 +125,22 @@ const http_factory = (method) => {
             console.log(requestOptions)
             const text = await http_result.text()
 
+
+            console.log("httphttphttphttphttphttphttphttphttphttphttphttphttp")
+            console.log(text)
             // Alert.alert(text)
-            if(text=="TOKENERR01"||text==""){
-                // Alert.alert(text)
-                return text
-            }
+
+
+            // //
+            // if(text==null||text.status){
+            //     return ""
+            // }
+            //
+            //
+            // if(text=="TOKENERR01"||text==""){
+            //     // Alert.alert(text)
+            //     return text
+            // }
 
             return text
             // const json = JSON.parse(text)

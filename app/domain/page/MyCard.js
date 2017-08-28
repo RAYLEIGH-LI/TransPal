@@ -69,11 +69,11 @@ export class MyCard extends Component {
     render() {
         return (
             <View style={{flex: 1, backgroundColor: "#f3f3f3"}}>
-                {/*<NavBar*/}
-                {/*title="收货地址"*/}
-                {/*leftIcon="ios-arrow-back"*/}
-                {/*leftPress={this.back.bind(this)}*/}
-                {/*/>*/}
+                <NavBar
+                title="我的卡片"
+                leftIcon="ios-arrow-back"
+                leftPress={()=>{this.props.navigator.pop()}}
+                />
                 <ScrollView>
                     {this.state.cards.map((item, i) => {
                         return (

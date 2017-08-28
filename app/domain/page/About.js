@@ -25,6 +25,7 @@
 
 import React, {Component} from 'react'
 import {View, Text, StyleSheet, ScrollView, Link} from 'react-native'
+import NavBar from '../component/NavBar'
 
 const text = "通行宝公司简介：\n"+
 "简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介简介\n"+
@@ -35,7 +36,13 @@ export class About extends Component{
 
   render(){
 
-    return <ScrollView style={{flex : 1, paddingTop : 20}}>
+    return <ScrollView style={{flex : 1, paddingTop : 0}}>
+
+      <NavBar
+          title="关于"
+          leftIcon="ios-arrow-back"
+          leftPress={()=>{this.props.navigator.pop()}}
+      />
 
       {text.split("\n").map((para, i) => {
 

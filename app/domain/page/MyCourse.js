@@ -119,7 +119,7 @@ export class MyCourse extends Component{
         </View>
         {this.state.orders.map( (order, i) => {
           return <TouchableOpacity key={i}
-                   onPress={this._view}>
+                   onPress={()=>{}}>
             {/* <CourseCardSmall
             containerStyle={{margin : 10, paddingBottom : 10, backgroundColor : "white"}}
             key={i} {...order} pay={false} isLast={i === this.state.orders.length - 1} /> */}

@@ -4,6 +4,8 @@ import android.app.Application;
 
 import com.cboy.rn.splashscreen.SplashScreen;
 import com.facebook.react.ReactApplication;
+import com.cmcewen.blurview.BlurViewPackage;
+import com.beefe.picker.PickerViewPackage;
 import com.cboy.rn.splashscreen.SplashScreenReactPackage;
 import com.RNFetchBlob.RNFetchBlobPackage;
 import com.cboy.rn.splashscreen.SplashScreenReactPackage;
@@ -32,6 +34,8 @@ public class MainApplication extends Application implements ReactApplication {
       return Arrays.<ReactPackage>asList(
               new RNDeviceInfo(),
               new MainReactPackage(),
+            new BlurViewPackage(),
+            new PickerViewPackage(),
               new SplashScreenReactPackage(),
               new RNFetchBlobPackage(),
               new RCTToastPackage(),

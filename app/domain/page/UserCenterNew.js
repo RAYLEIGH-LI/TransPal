@@ -105,6 +105,13 @@ export class UserCenterNew extends Component {
             return (<Item key={i} {...item}/>)
         })
     }
+    leftPress(){
+        Alert.alert("暂无提醒")
+    }
+    rightPress(){
+        this.props.navigator.push({...Routes.UserProfile})
+    }
+
     back(){
       Alert.alert("1")
     }
@@ -133,13 +140,13 @@ export class UserCenterNew extends Component {
 
         return (
             <View style={{flex: 1, backgroundColor: "#f3f3f3",height:height}}>
-                {/*<NavBar*/}
-                    {/*title="个人中心"*/}
-                    {/*leftIcon="ios-notifications-outline"*/}
-                    {/*leftPress={this.leftPress.bind(this)}*/}
-                    {/*rightIcon="ios-settings-outline"*/}
-                    {/*rightPress={()=>{Alert.alert("yes")}}*/}
-                {/*/>*/}
+                <NavBar
+                    title="个人中心"
+                    leftIcon="ios-notifications-outline"
+                    leftPress={this.leftPress.bind(this)}
+                    rightIcon="ios-settings-outline"
+                    rightPress={this.rightPress.bind(this)}
+                />
                 <ScrollView
                     style={styles.scrollView}
                     refreshControl={

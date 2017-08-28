@@ -45,6 +45,9 @@
     <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_light_focused">#90000000</color>
     <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
+    <!-- From: file:/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-blur/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="default_overlay_color">#AAFFFFFF</color>
     <!-- From: file:/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
@@ -110,6 +113,7 @@
     <declare-styleable name="MenuView"><attr name="android:itemTextAppearance"/><attr name="android:horizontalDivider"/><attr name="android:verticalDivider"/><attr name="android:headerBackground"/><attr name="android:itemBackground"/><attr name="android:windowAnimationStyle"/><attr name="android:itemIconDisabledAlpha"/><attr format="boolean" name="preserveIconSpacing"/></declare-styleable>
     <declare-styleable name="PopupWindow"><attr format="boolean" name="overlapAnchor"/><attr name="android:popupBackground"/></declare-styleable>
     <declare-styleable name="PopupWindowBackgroundState"><attr format="boolean" name="state_above_anchor"/></declare-styleable>
+    <declare-styleable name="PxBlurringView"><attr format="integer" name="blurRadius"/><attr format="integer" name="downsampleFactor"/><attr format="color" name="overlayColor"/></declare-styleable>
     <declare-styleable name="RecyclerView"><attr format="string" name="layoutManager"/><attr name="android:orientation"/><attr format="integer" name="spanCount"/><attr format="boolean" name="reverseLayout"/><attr format="boolean" name="stackFromEnd"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
     <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
@@ -220,6 +224,10 @@
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <!-- From: file:/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-blur/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <integer name="default_blur_radius">15</integer>
+    <integer name="default_downsample_factor">8</integer>
     <!-- From: file:/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.1/res/values/values.xml -->
     <eat-comment/>
     <integer name="google_play_services_version">11011000</integer>
@@ -1287,6 +1295,20 @@
     <item name="android:windowEnterAnimation">@anim/slide_up</item>
     <item name="android:windowExitAnimation">@anim/slide_down</item>
   </style>
+    <!-- From: file:/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/transpal/react-native-picker/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="Dialog_Full_Screen">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PickerAnim</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="PickerAnim">
+        <item name="android:windowEnterAnimation">@anim/picker_enter</item>
+        <item name="android:windowExitAnimation">@anim/picker_exit</item>
+    </style>
     <!-- From: file:/Users/xiaohan/react-native/TransPal/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">

@@ -24,7 +24,7 @@
  */
 
 import React, {Component} from 'react'
-
+import NavBar from '../component/NavBar'
 import {View, Text, StyleSheet, ScrollView, Link} from 'react-native'
 
 const text = "开户协议：\n"+
@@ -35,7 +35,13 @@ export class AccountAgreement extends Component{
 
   render(){
 
-    return <ScrollView style={{flex : 1, paddingTop : 20}}>
+    return <ScrollView style={{flex : 1, paddingTop : 0}}>
+
+      <NavBar
+          title="用户协议"
+          leftIcon="ios-arrow-back"
+          leftPress={()=>{this.props.navigator.pop()}}
+      />
 
       {text.split("\n").map((para, i) => {
 

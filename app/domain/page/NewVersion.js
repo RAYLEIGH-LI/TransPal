@@ -27,7 +27,7 @@ import React, {Component} from 'react'
 import {flexCenter} from 'basic'
 import {Dimensions, View, Text, StyleSheet, ScrollView, Link, Alert, Image, Platform} from 'react-native'
 import RNFetchBlob from 'react-native-fetch-blob'
-
+import NavBar from '../component/NavBar'
 import {ZButton} from "domain/component"
 
 
@@ -109,8 +109,12 @@ export class NewVersion extends Component {
 
         const {filePath} = this.state
 
-        return <ScrollView style={{flex: 1, paddingTop: 20}}>
-
+        return <ScrollView style={{flex: 1, paddingTop: 0}}>
+            <NavBar
+                title="版本介绍"
+                leftIcon="ios-arrow-back"
+                leftPress={()=>{this.props.navigator.pop()}}
+            />
             {text.split("\n").map((para, i) => {
 
                 return <View key={i} style={styles.para}><Text style={styles.text}>{para}</Text></View>

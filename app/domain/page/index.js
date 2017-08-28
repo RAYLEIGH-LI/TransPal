@@ -187,7 +187,7 @@ export const Routes = {
             return require("./About").About
         }
     },
-    /** 重置密码 **/
+    /** 版本信息 **/
     NewVersion: {
         name: "NewVersion",
         Inverse: true,
@@ -195,6 +195,16 @@ export const Routes = {
 
         get Component() {
             return require("./NewVersion").NewVersion
+        }
+    },
+    /** 充值 **/
+    Recharge: {
+        name: "Recharge",
+        Inverse: true,
+        Title: "充值",
+
+        get Component() {
+            return require("./Recharge").Recharge
         }
     },
     /** 用户中心（老版测试） **/
@@ -210,6 +220,7 @@ export const Routes = {
     /** 账户信息 **/
     UserProfile: {
         name: "UserProfile",
+        noTitleBar: "true",
         Inverse: false,
         Title: "账户信息",
 

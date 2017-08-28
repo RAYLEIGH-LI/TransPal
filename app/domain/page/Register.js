@@ -39,6 +39,7 @@ import {
 
 } from 'react-native'
 
+import NavBar from '../component/NavBar'
 import {FormScrollView, FormConnector, ValidateMethods, flexCenter} from 'basic'
 import {ZButton, ZInput, ZSwitch, ZVCode, ZImgCode} from "domain/component"
 
@@ -67,14 +68,6 @@ export class Register extends Component {
             busy: false
         }
     }
-
-
-
-
-
-
-
-
 
     async _submit(data, errors) {
 
@@ -114,7 +107,13 @@ export class Register extends Component {
 
     render() {
         return (
+
             <FormScrollView>
+                <NavBar
+                    title="用户注册"
+                    leftIcon="ios-arrow-back"
+                    leftPress={()=>{this.props.navigator.pop()}}
+                />
                 <FormConnector
                     data={{agree: true}}
                     fields={fields}

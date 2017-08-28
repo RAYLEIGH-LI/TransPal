@@ -1,5 +1,5 @@
 /***********************************************
- * 
+ *
  * MIT License
  *
  * Copyright (c) 2016 珠峰课堂,Ramroll
@@ -25,39 +25,41 @@
 
 import React, {Component} from 'react'
 
-import {TextInput, StyleSheet, View, Text} from 'react-native' 
+import {TextInput, StyleSheet, View, Text} from 'react-native'
 
 import {COLOR_TEXT_LIGHT} from "domain/def"
 
-export class ZInput extends Component{
-  
-  _change(value){
-    this.props.onChange(value)  
-  }
-  render(){
-    
-    const {error, ...others} = this.props
-    return  <View>
-      <TextInput
-        onChangeText={this._change.bind(this)} style={styles.input} {...others}
-        underlineColorAndroid={"rgba(0,0,0,0)"}
-      />
-    </View>
-  }
+export class ZInput extends Component {
+
+    _change(value) {
+        this.props.onChange ?
+            this.props.onChange(value) : null
+    }
+
+    render() {
+
+        const {error, ...others} = this.props
+        return <View>
+            <TextInput
+                onChangeText={this._change.bind(this)} style={styles.input} {...others}
+                underlineColorAndroid={"rgba(0,0,0,0)"}
+            />
+        </View>
+    }
 }
 
 const styles = StyleSheet.create({
-  input : {
-    borderWidth : 1,
-    borderRadius : 5,
-    borderColor : "#eee",
-    paddingLeft : 20,
-    paddingRight : 20,
-    height : 42,
-    marginLeft : 20,
-    marginRight : 20,
-    color : COLOR_TEXT_LIGHT,
-    marginTop : 20
-    
-  }  
+    input: {
+        borderWidth: 1,
+        borderRadius: 5,
+        borderColor: "#eee",
+        paddingLeft: 20,
+        paddingRight: 20,
+        height: 42,
+        marginLeft: 20,
+        marginRight: 20,
+        color: COLOR_TEXT_LIGHT,
+        marginTop: 20
+
+    }
 })

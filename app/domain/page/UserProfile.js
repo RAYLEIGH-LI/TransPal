@@ -22,9 +22,9 @@ export class UserProfile extends Component {
         super(props)
     }
 
-    // back(){
-    //   this.props.navigator.pop()
-    // }
+    back(){
+      this.props.navigator.pop()
+    }
 
     goPage(key) {
 
@@ -43,11 +43,11 @@ export class UserProfile extends Component {
     render() {
         return (
             <View style={{flex: 1, backgroundColor: "#f3f3f3"}}>
-                {/*<NavBar*/}
-                {/*title="账户信息"*/}
-                {/*leftIcon="ios-arrow-back"*/}
-                {/*leftPress={this.back.bind(this)}*/}
-                {/*/>*/}
+                <NavBar
+                title="账户信息"
+                leftIcon="ios-arrow-back"
+                leftPress={this.back.bind(this)}
+                />
                 <ScrollView>
                     <Item name="头像" avatar={2} first={true}/>
                     <Item name="用户名" disable={true} subName="_平行时空"/>

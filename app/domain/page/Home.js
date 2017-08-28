@@ -123,7 +123,14 @@ export class Home extends Component {
     }
 
     onMenuSelected(index) {
-        Alert.alert("" + index)
+
+        let pages = {
+            "充值": {...Routes.Recharge}
+        }
+        if(pages[index]){
+            this.props.navigator.push({...pages[index]})
+        }
+
     }
 
 

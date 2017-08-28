@@ -94,6 +94,12 @@ class _App extends Component {
             let promise = await check_token(token)
             let result =  promise
 
+
+            console.log("resultresultresultresultresultresultresultresultresultresultresult")
+            console.log(result)
+
+
+
             if(result==''||result=="TOKENERR01"){
                 alert("身份信息过期，需重新登录")
                 this.refs.navigator.push({...Routes.Login})
@@ -169,7 +175,6 @@ class _App extends Component {
     _renderScene(route, navigator) {
 
         const {Component, noTitleBar} = route
-
         // console.log("route.passPropsroute.passPropsroute.passPropsroute.passPropsroute.passPropsroute.passProps")
         // console.log(route)
         return (
@@ -178,13 +183,13 @@ class _App extends Component {
                     barStyle={route.Inverse ? "light-content" : "default"}
                 />
 
-                {!noTitleBar &&
-                <View style={{
-                    backgroundColor: route.Inverse ? COLOR_NAV_DARK : "white",
-                    height: Platform.OS === 'ios' ? 64 : 56
-                }}>
-                </View>
-                }
+                {/*{!noTitleBar &&*/}
+                {/*<View style={{*/}
+                    {/*backgroundColor: route.Inverse ? COLOR_NAV_DARK : "white",*/}
+                    {/*height: Platform.OS === 'ios' ? 64 : 56*/}
+                {/*}}>*/}
+                {/*</View>*/}
+                {/*}*/}
                 <Component navigator={navigator} route={route} noTitleBar={noTitleBar}/>
             </View>
 
@@ -197,11 +202,9 @@ class _App extends Component {
             flex: 1, ...flexCenter
         }
 
-        const routeMapper = props=>({
+        const routeMapper = {
 
             LeftButton(route, navigator, index, navState) {
-                console.log("propspropspropspropspropspropsprops")
-                console.log(this.props)
                 if (index === 0) {
                     return null
                 }
@@ -222,13 +225,13 @@ class _App extends Component {
                     </View>
                 );
             },
-        })
+        }
 
 
 
         return (
             <Navigator.NavigationBar
-                routeMapper={routeMapper(this.props)}
+                routeMapper={routeMapper}
             />
         )
     }
@@ -248,7 +251,7 @@ class _App extends Component {
                 ref="navigator"
                 initialRoute={Routes.Tabs}
                 renderScene={this._renderScene}
-                navigationBar={this._renderNavBar()}
+                // navigationBar={this._renderNavBar()}
             />
         </View>
     }
