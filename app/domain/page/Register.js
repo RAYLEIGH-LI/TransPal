@@ -49,13 +49,13 @@ import {Routes} from "domain/page"
 const fields = ["name", "password", "certificate", "mobile", "agree", "vcode", "imgcode", "smsId"]
 
 const validate = (assert, fields) => {
-    // assert("name", ValidateMethods.required(), '请输入用户名')
-    // assert("mobile", ValidateMethods.required(), '请输入手机号')
-    // assert("mobile", ValidateMethods.length(11), '手机号格式不正确')
-    // assert("certificate", ValidateMethods.required(), '请输入身份证')
-    // assert("certificate", ValidateMethods.length(18), '身份证格式不正确')
+    assert("name", ValidateMethods.required(), '请输入用户名')
+    assert("mobile", ValidateMethods.required(), '请输入手机号')
+    assert("mobile", ValidateMethods.length(11), '手机号格式不正确')
+    assert("certificate", ValidateMethods.required(), '请输入身份证')
+    assert("certificate", ValidateMethods.length(18), '身份证格式不正确')
     // assert("password", ValidateMethods.required(), '请输入密码')
-    // assert("agree", ValidateMethods.required(true), '请同意用户协议')
+    assert("agree", ValidateMethods.required(true), '请同意用户协议')
 }
 
 
@@ -82,24 +82,30 @@ export class Register extends Component {
 
         const result=JSON.parse(resultStr)
 
+        console.log(result)
+
         if(result.errCode!="0000"){
             Alert.alert("错误", result.errMsg)
             this.setState({busy:false})
             return false
         }
-        Alert.alert(result.token)
-        global.token=result.token
-        global.logged="true"
 
-        global.storage.save({
-            key: 'token',   // Note: Do not use underscore("_") in key!
-            data: result.token
-        });
+        if(result.tokenID){
+            Alert.alert(result.tokenID)
+            global.token=result.tokenID
+            global.logged="true"
+
+            global.storage.save({
+                key: 'token',   // Note: Do not use underscore("_") in key!
+                data: result.tokenID
+            });
+        }
+
 
         // console.log(result)
         this.setState({busy: false}, (() => {
 
-            this.props.navigator.pop()
+            this.props.navigator.push({...Routes.Tabs})
         }).bind(this))
 
 
@@ -149,27 +155,27 @@ const RegisterForm = ({form, fields, submit, busy, navigator}) => {
         console.log(this.zImgCode.state.code)
 
         const certificateNumber = certificate.value
-        // if (!(certificateNumber && certificateNumber.length === 18 )) {
-        //     Alert.alert("错误", "请输入身份证号")
-        //     return false
-        // }
-        //
+        if (!(certificateNumber && certificateNumber.length === 18 )) {
+            Alert.alert("错误", "请输入身份证号")
+            return false
+        }
+
         const mobileNumber = mobile.value
-        // if (!(mobileNumber && mobileNumber.length === 11 )) {
-        //     Alert.alert("错误", "请输入手机号")
-        //     return false
-        // }
-        //
-        // if (!imgcode.value) {
-        //     Alert.alert("错误", "请输入图片验证码")
-        //     return false
-        // }
-        //
-        // if (imgcode.value.toUpperCase() != this.zImgCode.state.code.toUpperCase()) {
-        //     Alert.alert("错误", "请输入正确的图片验证码")
-        //     return false
-        // }
-        /// TODO 发送请求
+        if (!(mobileNumber && mobileNumber.length === 11 )) {
+            Alert.alert("错误", "请输入手机号")
+            return false
+        }
+
+        if (!imgcode.value) {
+            Alert.alert("错误", "请输入图片验证码")
+            return false
+        }
+
+        if (imgcode.value.toUpperCase() != this.zImgCode.state.code.toUpperCase()) {
+            Alert.alert("错误", "请输入正确的图片验证码")
+            return false
+        }
+        // TODO 发送请求
         // Alert.alert('1')
         const resultStr = await get_user_vcode(mobileNumber)
         const result=JSON.parse(resultStr)
@@ -188,7 +194,7 @@ const RegisterForm = ({form, fields, submit, busy, navigator}) => {
             <ZInput placeholder="姓名" keyboardType="phone-pad" {...name} />
             <ZInput placeholder="身份证号" keyboardType="phone-pad" {...certificate} />
             <ZInput placeholder="手机号" keyboardType="phone-pad" {...mobile} />
-            <ZInput placeholder="密码"  {...password} secureTextEntry={true}/>
+            {/*<ZInput placeholder="密码"  {...password} secureTextEntry={true}/>*/}
             <ZImgCode {...imgcode} send={send.bind(this)} ref={zImgCode => this.zImgCode = zImgCode}/>
             <ZVCode {...vcode} send={send}/>
             <ZSwitch label="同意注册协议" {...agree} onPress={() => navigator.push({...Routes.AccountAgreement})}/>

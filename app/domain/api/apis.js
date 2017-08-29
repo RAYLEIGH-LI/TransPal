@@ -66,7 +66,7 @@ export const check_token = (token) => {
     console.log("@check_token[验证token] ")
 
     const param = JSON.stringify({
-        sysName: 'transpal',
+        sysName: 'txb-userRun',
         token
     })
 
@@ -97,7 +97,7 @@ export const get_image = async () => {
 }
 
 /**
- * 获取用户注册码
+ * 发送短信验证码
  */
 export const get_user_vcode = (mobile) => {
 
@@ -109,8 +109,8 @@ export const get_user_vcode = (mobile) => {
         smsType: 'validate'
     })
 
-    return '{"errCode":"0000","errMsg":""}'
-    // return JSON.parse(http_get("/m/sms-send", {param}))
+    // return '{"errCode":"0000","errMsg":""}'
+    return http_get("/m/sms-send", {param})
 
 
 }
@@ -123,17 +123,17 @@ export const register = (data) => {
     console.log("@register[用户注册] with data "+data)
 
     const param = JSON.stringify({
-        pkgCmd: 'sms.submit',
+        pkgCmd: 'user.register',
         phoneNbr: data.mobile,
         smsID:data.smsId,
-        valiCode:data.vcode,
-        userName:data.name,
-        loginPwd: data.password
+        valiCode:data.vcode
+        // userName:data.name,
+        // loginPwd: data.password
     })
 
-    return '{"errCode":"0000","errMsg":"","token":"o3061+dpIeKGWgjmy+cg95g2jbG04hmb0hzyp/anXLI="}'
+    // return '{"errCode":"0000","errMsg":"","token":"o3061+dpIeKGWgjmy+cg95g2jbG04hmb0hzyp/anXLI="}'
 
-    // return http_post("/m/user-register", param)
+    return http_get("/m/user-register", {param})
 }
 
 
@@ -149,8 +149,20 @@ export const reset = (data) => {
  */
 export const login = (data) => {
 
-    console.log("@login")
-    return http_get("/user/identity", data)
+    console.log("@login[用户登录] with data "+data)
+
+    const param = JSON.stringify({
+        pkgCmd: 'user.login',
+        phoneNbr: data.mobile,
+        smsID:data.smsId,
+        valiCode:data.vcode
+        // userName:data.name,
+        // loginPwd: data.password
+    })
+
+    // return '{"errCode":"0000","errMsg":"","token":"o3061+dpIeKGWgjmy+cg95g2jbG04hmb0hzyp/anXLI="}'
+
+    return http_get("/m/user-login", {param})
 
 }
 

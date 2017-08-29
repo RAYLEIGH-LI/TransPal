@@ -27,15 +27,15 @@ import React, {Component} from 'react'
 
 import {
 
-  Text,
-  View,
-  Image,
-  TextInput,
-  StyleSheet,
-  ScrollView,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  Alert
+    Text,
+    View,
+    Image,
+    TextInput,
+    StyleSheet,
+    ScrollView,
+    TouchableOpacity,
+    TouchableWithoutFeedback,
+    Alert
 
 
 } from 'react-native'
@@ -49,75 +49,94 @@ import {COLOR_PRIMARY} from 'domain/def'
 
 
 import {Routes} from "domain/page"
-const fields = ["mobile", "password"]
+const fields = ["mobile", "password","smsId","vcode"]
 
 const validate = (assert, fields) => {
-  assert("mobile", ValidateMethods.required(), '请输入手机号')
-  assert("mobile", ValidateMethods.length(11), '手机号格式不正确')
-  assert("password", ValidateMethods.required(), '请输入密码')
+    assert("mobile", ValidateMethods.required(), '请输入手机号')
+    assert("mobile", ValidateMethods.length(11), '手机号格式不正确')
 }
 
 
-
 export class Login extends Component {
-  constructor(){
-    super()
-    this.state = {
-      busy : false // 处理中
-    }
-    
-    
-    setTimeout( () => {
-      store.dispatch({type : "NETWORK_RETRY"})
-    })
-    
-  }
- 
-  async _submit(data, errors){
-    
-    if(errors.length > 0) {
-      alert(errors[0])
-      return
-    }
-    
-    this.setState({busy : true})
-    const {mobile,password} = data
-    const result = await login({mobile, password})
+    constructor() {
+        super()
+        this.state = {
+            busy: false // 处理中
+        }
 
-    this.setState({busy : false})
-    
-    store.dispatch({
-      type : "LOGIN_SUCCESS",
-      name : result.name 
-    })
-    if(this.props.route.from) {
-      this.props.navigator.pop()
+
+        setTimeout(() => {
+            store.dispatch({type: "NETWORK_RETRY"})
+        })
+
     }
-  }
 
-  render(){
-    const {busy} = this.state
-    return (
-      <FormScrollView>
-        <NavBar
-            title="用户登录"
-            leftIcon="ios-arrow-back"
-            leftPress={()=>{this.props.navigator.pop()}}
-        />
-        <View style={{...flexCenter, height : 120}} >
-          <Image source={require("./images/login.png")} style={{width : 60, height : 60}} />
-        </View>
-        
-        <FormConnector
-          fields={fields}
-          validate={validate}
-          submit={this._submit.bind(this)}>
-          <LoginForm busy={busy} navigator={this.props.navigator} />
-        </FormConnector>
+    async _submit(data, errors) {
 
-      </FormScrollView>
-    )
-  }
+        if (errors.length > 0) {
+            alert(errors[0])
+            return
+        }
+
+        this.setState({busy: true})
+
+        const resultStr = await login(data)
+
+        const result=JSON.parse(resultStr)
+
+        this.setState({busy: false})
+
+        if(result.errCode!="0000"){
+            Alert.alert("错误", result.errMsg)
+            this.setState({busy:false})
+            return false
+        }
+
+        if(result.tokenID){
+            // Alert.alert(result.tokenID)
+            global.token=result.tokenID
+            global.logged="true"
+
+            global.storage.save({
+                key: 'token',   // Note: Do not use underscore("_") in key!
+                data: result.tokenID
+            });
+        }
+
+
+        // console.log(result)
+        this.setState({busy: false}, (() => {
+
+            this.props.navigator.push({...Routes.Tabs})
+        }).bind(this))
+
+    }
+
+    render() {
+        const {busy} = this.state
+        return (
+            <FormScrollView>
+                <NavBar
+                    title="用户登录"
+                    leftIcon="ios-arrow-back"
+                    leftPress={() => {
+                        this.props.navigator.pop()
+                    }}
+                />
+                <View style={{...flexCenter, height: 120}}>
+                    <Image source={require("./images/login.png")} style={{width: 60, height: 60}}/>
+                </View>
+
+                <FormConnector
+                    fields={fields}
+                    validate={validate}
+                    submit={this._submit.bind(this)}>
+                    <LoginForm busy={busy} navigator={this.props.navigator}/>
+                </FormConnector>
+
+            </FormScrollView>
+        )
+    }
 }
 
 
@@ -132,38 +151,62 @@ export class Login extends Component {
 const LoginForm = ({form, fields, submit, busy, navigator}) => {
 
 
-  const {mobile, password} = fields
-  return (
-    <View>
-      <ZInput placeholder="手机号" keyboardType="phone-pad" {...mobile} />
-      <ZInput placeholder="密码"  {...password} secureTextEntry={true} />
-      <View style={{justifyContent : "space-between", flexDirection : 'row'}}>
-        <TouchableOpacity
-          onPress={() => navigator.push({...Routes.Register})}
-          style={{paddingLeft : 20}}>
-          <Text style={{color : COLOR_PRIMARY, marginTop : 10}}>没有账号?马上注册</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          onPress={() => navigator.push({...Routes.ResetPassword})}
-          style={{paddingRight : 20}}>
-          <Text style={{color : COLOR_PRIMARY, marginTop : 10}}>忘记密码</Text>
-        </TouchableOpacity>
-      </View>
-      <View style={{...flexCenter, marginTop : 20}}>
-        <ZButton onPress={submit} loading={busy}>登录</ZButton>
-      </View>
-    </View>
-  )
+    const {mobile, vcode, password,smsId} = fields
+    const send = async () => {
+        console.log("@send @LoginForm")
+
+        const mobileNumber = mobile.value
+        if (!(mobileNumber && mobileNumber.length === 11 )) {
+            Alert.alert("错误", "请输入手机号")
+            return false
+        }
+
+        // TODO 发送请求
+        // Alert.alert('1')
+        const resultStr = await get_user_vcode(mobileNumber)
+        const result = JSON.parse(resultStr)
+        if (result.errCode != "0000") {
+            Alert.alert("错误", result.errMsg)
+            return false
+        }
+
+        fields.smsId.value = result.smsID
+
+
+        return true
+    }
+
+    return (
+        <View>
+            <ZInput placeholder="手机号" keyboardType="phone-pad" {...mobile} />
+            {/*<ZInput placeholder="密码"  {...password} secureTextEntry={true} />*/}
+            <ZVCode {...vcode} send={send}/>
+            <View style={{justifyContent: "space-between", flexDirection: 'row'}}>
+                <TouchableOpacity
+                    onPress={() => navigator.push({...Routes.Register})}
+                    style={{paddingLeft: 20}}>
+                    <Text style={{color: COLOR_PRIMARY, marginTop: 10}}>没有账号?马上注册</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                    onPress={() => navigator.push({...Routes.ResetPassword})}
+                    style={{paddingRight: 20}}>
+                    <Text style={{color: COLOR_PRIMARY, marginTop: 10}}>忘记密码</Text>
+                </TouchableOpacity>
+            </View>
+            <View style={{...flexCenter, marginTop: 20}}>
+                <ZButton onPress={submit} loading={busy}>登录</ZButton>
+            </View>
+        </View>
+    )
 }
 
 
-
 const styles = StyleSheet.create({
-  textInput : {
-    borderWidth : 1,
-    borderColor : "#eee",
-    width : 200,
-    height : 40
+    textInput: {
+        borderWidth: 1,
+        borderColor: "#eee",
+        width: 200,
+        height: 40
 
-  }
+    }
 })
