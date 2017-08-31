@@ -248,14 +248,14 @@ export const Routes = {
             return require("./MyCard").MyCard
         }
     },
-    /** 修改地址 **/
-    EditAddress: {
-        name: "EditAddress",
+    /** 修改卡片信息 **/
+    EditCard: {
+        name: "EditCard",
         Inverse: true,
-        Title: "修改地址",
+        Title: "修改信息",
 
         get Component() {
-            return require("./EditAddress").EditAddress
+            return require("./EditCard").EditCard
         }
     },
     /** 开户协议 **/

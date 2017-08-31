@@ -16,7 +16,7 @@ import px2dp from '../util'
 import NavBar from '../component/NavBar'
 import Button from '../component/Button'
 import {Routes} from "domain/page"
-import EditAddress from './EditAddress'
+import EditCard from './EditCard'
 import Icon from 'react-native-vector-icons/Ionicons'
 //FontAwesome
 export class MyCard extends Component {
@@ -44,22 +44,21 @@ export class MyCard extends Component {
 
     add() {
         this.props.navigator.push({
-            ...Routes.EditAddress,
+            ...Routes.EditCard,
             args: {
                 pageType: 0,
-                title: "新增地址"
+                title: "新增卡片"
             }
         })
     }
 
     edit(data) {
         this.props.navigator.push({
-            ...Routes.EditAddress,
-            args: {
-                pageType: 1,
-                title: "修改地址",
-                data
-            }
+            ...Routes.EditCard,
+            pageType:1,
+            title: "修改卡片",
+            data
+
         })
     }
 
@@ -78,7 +77,7 @@ export class MyCard extends Component {
                     {this.state.cards.map((item, i) => {
                         return (
 
-                                <View style={styles.address}>
+                                <View style={styles.address} key={i}>
                                     <View>
                                         <Text style={{
                                             color: "#333",
@@ -90,7 +89,7 @@ export class MyCard extends Component {
                                             <Text style={{color: "#bbb", fontSize: px2dp(13)}}>{item.cardno}</Text>
                                         </View>
                                     </View>
-                                    <TouchableOpacity key={i} onPress={this.edit.bind(this, item)}>
+                                    <TouchableOpacity key={i} onPress={this.edit.bind(this,item)}>
                                     <Icon name="md-create" size={22} color="#ccc"/>
                                     </TouchableOpacity>
                                 </View>
